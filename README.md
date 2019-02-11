@@ -41,7 +41,7 @@ The ASTGDEMv2 is comrised of 22702 tiles covering land surfaces between **83°N*
 
 The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** image/data format. The data are posted on a **1 arc-second (1"~30m at the equator)** grid. The size of each tile is 1°x1° or **3601"x3601"**. [*Remark: The four edges of each tile are overlapped with its four adjacent tiles. Users should remove overlapped elements and merge the related tiles when more than one tile is used.*]
 
-The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the earth. [*Remark: The WGS-84 is used to approxiate the earth rather than a specific region on the earth. Thus, it might be not accurate in local regions.*]
+The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the earth. [*Remark: The WGS-84 is used to approxiate the earth rather than a specific region. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which is more accurate for describing locations in Britain [Ref](https://communityhub.esriuk.com/geoxchange/2012/3/26/coordinate-systems-and-projections-for-beginners.html).*]
 
 ### Download
 
