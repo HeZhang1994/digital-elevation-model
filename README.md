@@ -108,7 +108,7 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see comments for more detail
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
 
-## References
+## References (Highly Recommended for Tyro)
 
 [1] [EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)](http://lyzidiamond.com/posts/4326-vs-3857)
 
