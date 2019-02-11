@@ -20,11 +20,11 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 1. **Transforming** DEM data from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-2. **Projecting** DEM data from current GCS (e.g., WGS-84/OSGB-36) to the corresponding PCS (e.g., Web Mercator/BNG).
+2. **Projecting** DEM data from current GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-3. **Visualising** DEM data in PCS as 2D image.
+3. **Visualising** DEM data in different PCSs as 2D images.
 
-4. **Obtaining** elevation of specific location from DEM data in GCS.
+4. **Obtaining** elevation of specific locations from DEM data in different GCSs.
 
 ### Limitation
 
@@ -46,7 +46,7 @@ This code has been tested on **Ubuntu 16.04** operating system.
 
 * __GDAL 1.11.3__
 
-To begin with, install GDAL development libraries and export environment variables for the compiler:
+1. Install GDAL development libraries and export environment variables for the compiler:
 ```bash
 $ sudo apt-get install libgdal-dev
 
@@ -54,21 +54,21 @@ $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
-Then, install GDAL Python Libraries:
+2. Install GDAL Python Libraries:
 ```bash
 $ pip install GDAL
 ```
 
 If it comes with the error: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
 
-Check the required/installed version of GDAL Python Libraries on your Ubuntu operating system:
+3. Check the required/installed version of GDAL Python Libraries on Ubuntu operating system:
 ```bash
 $ gdal-config --version
 ```
 
-Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g., 1.11.3) from [GDAL website](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+4. Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g., 1.11.3) from [GDAL website](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
-Manually install GDAL Python Libraries:
+5. Manually install GDAL Python Libraries:
 ```bash
 $ cd path/of/downloaded/gdal/package
 
@@ -80,23 +80,23 @@ $ cd extracted/gdal/folder
 
 $ cd swig
 $ cd python
-# setup.py exists under this directory.
+# The setup.py exists in this directory.
 
 $ python setup.py build_ext --include-dirs=/usr/include/gdal/
 $ python setup.py install
 ```
 
-Try ```from osgeo import gdal``` in python. If it does not come with any error, the installation is completed.
+6. Try ```>>> from osgeo import gdal``` in python. If no error occurs, the installation is completed.
 
 ## DEM Data
 
-ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for more details.
+ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for more details (highly recommanded for tyro).
 
 ## Usage
 
 Download and copy ASTGDEMv2 data of London (```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```) to ```DATA_ASTGDEMv2/EPSG4326/``` folder.
 
-Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see comments for more details).
+Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for more details).
 
 ## Results
 
@@ -107,6 +107,12 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see comments for more detail
 2D DEM image of London in BNG PCS (EPSG-27700):
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
+
+Elevation of Locations
+
+| Term                                   | Abbrevation | Remark 
+| -------------------------------------- | ----------- | ------ 
+| Digital Elevation Model                | DEM         | - 
 
 ## References (Highly Recommended for Tyro)
 
