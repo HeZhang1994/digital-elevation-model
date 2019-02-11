@@ -107,3 +107,11 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see comments for more detail
 2D DEM image of London in BNG PCS (EPSG-27700):
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
+
+## References
+
+[1] 
+
+[2] 
+
+[3] 
