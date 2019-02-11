@@ -10,9 +10,9 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 | Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod 
 | Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format | GeoTIFF     | DEM image/data format (.tif) 
-| World Geodetic System 1984             | WGS-84      | GCS, approximating the spheriod of earth 
+| 1984 World Geodetic System             | WGS-84      | GCS, approximating the spheriod of Earth 
 | Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84 
-| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of Britain   
+| 1936 Ordnance Survey Great Britain     | OSGB-36     | GCS, approximating the spheriod of Britain   
 | British National Grid                  | BNG         | PCS of OSGB-36 
 | European Petroleum Survey Group        | EPSG        | EPSG codes define different GCSs and PCSs 
 
@@ -31,7 +31,7 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 1. Can not visualize 3D land surface.
 
 
-## DEM Dataset - ASTER GDEM
+## DEM Dataset - ASTER GDEM v2
 
 The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Digital Elevation Model (GDEM), i.e., ASTER GDEM or ASTGDEM, is a product of the Ministry of Economy, Trade, and Industry (METI) in Japan and the National Aeronautic and Space Administration (NASA) in United States. The source data were collected by the **Advanced Spaceborne Thermal Emission and Reflection Radiometer** on the NASA spacecraft **Terra**. The ASTGDEM version 1 (ASTGDEMv1) dara were released on 2009 and the ASTGDEM version 2 (ASTGDEMv2) data were released on 2011. The ASTGDEMv2 data are used in this code (reasons are explained below).
 
@@ -41,8 +41,9 @@ The ASTGDEMv2 is comrised of 22702 tiles covering land surfaces between **83°N*
 
 The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** image/data format. The data are posted on a **1 arc-second (1"~30m at the equator)** grid. The size of each tile is 1°x1° or **3601"x3601"**. [*Remark: The four edges of each tile are overlapped with its four adjacent tiles. Users should remove overlapped elements and merge the related tiles when more than one tile is used.*]
 
-The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the earth. [*Remark: The WGS-84 useing a reference ellipsoid to approxiate the overall surface of the earth. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which uses another reference ellipsoid to accurately describing locations in Britain.*]
+The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the Earth. [*Remark: The WGS-84 useing a reference ellipsoid to approxiate the overall surface of the Earth. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which uses another reference ellipsoid to accurately describing locations in Britain.*]
 
+The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
 
 ### Download
 
