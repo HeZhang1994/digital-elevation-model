@@ -1,7 +1,11 @@
 # Digital Elevation Model Tools
 
-This is the **Python** implemented tools for **Digital Elevation Model (DEM)**.
+This is the **Python** implementation of **Digital Elevation Model (DEM)** tools.
 
 ### Functions:
 
-1. 
+1. **Transforming** DEM from current **geographic coordinate system (GCS)** to another GCS.
+
+2. **Visuzlising/Projecting** DEM from current GCS to corresponding **projected coordinate system (PCS)**.
+
+3. **Reading** elevation of specific locations (when longitude and latitude are given) from DEM.
