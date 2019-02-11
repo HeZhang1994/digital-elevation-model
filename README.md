@@ -36,7 +36,7 @@ fig
 
 ## Environment
 
-This code has been tested on **Ubuntu 16.04**.
+This code has been tested on **Ubuntu 16.04** operating system.
 
 ## Language
 
@@ -46,9 +46,30 @@ This code has been tested on **Ubuntu 16.04**.
 
 * __GDAL 1.11.3__
 
-Check the required GDAL version on your Ubuntu system:
+To begin with, install GDAL development libraries and export environment variables for the compiler:
+```bash
+$ sudo apt-get install libgdal-dev
+
+$ export environment variables for the compiler
+$ export C_INCLUDE_PATH=/usr/include/gdal
 ```
+
+Then, install GDAL Python Libraries:
+```bash
+$ pip install GDAL
+# or
+$ pip3 install GDAL
+# if both py2 and py3 exist on your operating system.
 ```
+
+If it comes with the error: cpl_vsi_error.h: No such file or directory, try the following installation procedures.
+
+Check the required/installed version of GDAL Python Libraries on your Ubuntu operating system:
+```bash
+$ gdal-config --version
+```
+
+Download the source file (http://download.osgeo.org/gdal/1.11.3/gdal-1.11.3.tar.gz - source as .tar.gz) of related GDAL version (i.e., 1.11.3) from [link](http://trac.osgeo.org/gdal/wiki/DownloadSource)
 
 ## DEM Data
 
