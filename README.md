@@ -1,6 +1,6 @@
 # Python Tools for Digital Elevation Model
 
-This is the **Python** implemented tools of processing **Digital Elevation Model (DEM)**.
+This is the **Python** implemented tools of processing **DEM** data.
 
 ### Important Terms and Abbrevations
 
