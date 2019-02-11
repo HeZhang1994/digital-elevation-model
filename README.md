@@ -62,7 +62,7 @@ $ pip3 install GDAL
 # if both py2 and py3 exist on your operating system.
 ```
 
-If it comes with the error: cpl_vsi_error.h: No such file or directory, try the following installation procedures.
+If it comes with the error: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
 
 Check the required/installed version of GDAL Python Libraries on your Ubuntu operating system:
 ```bash
@@ -70,6 +70,10 @@ $ gdal-config --version
 ```
 
 Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g., 1.11.3) from [GDAL website](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+
+Manually install GDAL Python Libraries:
+```bash
+```
 
 ## DEM Data
 
