@@ -9,10 +9,10 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 | Digital Elevation Model                | DEM         | 
 | Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod 
 | Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
-| Georeferenced Tagged Image File Format | GeoTIFF     | DEM data format 
+| Georeferenced Tagged Image File Format | GeoTIFF     | DEM data format (.tif) 
 | World Geodetic System 1984             | WGS-84      | GCS, approximating the spheriod of earth 
 | Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84 
-| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of UK 
+| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of Britain   
 | British National Grid                  | BNG         | PCS of OSGB-36 
 | European Petroleum Survey Group        | EPSG        | EPSG codes define different GCSs and PCSs 
 
@@ -37,9 +37,7 @@ The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Globa
 
 ### Data Characteristics
 
-The ASTER GDEM covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile contains at least 0.01% land surface. Thus, do not be surprised that tiles which contain only ocean area are missing. 
-
-The data format of ASTER GDEM is **GeoTIFF (.tif)**.
+The ASTGDEMv2 covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile is a block of earch surface that contains at least 0.01% land area. Thus, do not be surprised that tiles which contain only ocean area are missing. The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** data format. The data are posted on a **1 arc-second (~30m at the equator)** grid and referenced in **WGS-84 GCS** (i.e., the **column** of data array represents the **longitude**, and the **row** represents the **latitude** of a specific location). 
 
 ### Download
 
