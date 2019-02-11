@@ -2,19 +2,19 @@
 
 This is the **Python** implemented tools for processing **DEM** data.
 
-### Important Terms and Abbrevations
+### Important Terms and Abbreviations
 
-| Term                                   | Abbrevation | Remark 
-| -------------------------------------- | ----------- | ------ 
-| Digital Elevation Model                | DEM         | - 
-| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D ellipsoid 
-| Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
-| Georeferenced Tagged Image File Format | GeoTIFF     | DEM image/data format (.tif) 
-| 1984 World Geodetic System             | WGS-84      | GCS, approximating the ellipsoid of Earth 
-| Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84 
-| 1936 Ordnance Survey Great Britain     | OSGB-36     | GCS, approximating the ellipsoid of Britain 
-| British National Grid                  | BNG         | PCS of OSGB-36 
-| European Petroleum Survey Group        | EPSG        | EPSG codes define different GCSs and PCSs 
+| Term                                   | Abbreviation | Remark 
+| -------------------------------------- | ------------ | ------ 
+| Digital Elevation Model                | DEM          | - 
+| Geographic Coordinate System           | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
+| Projected Coordinate System            | PCS          | [X-axis, Y-axis, Elevation] on 2D plane 
+| Georeferenced Tagged Image File Format | GeoTIFF      | DEM image/data format (.tif) 
+| 1984 World Geodetic System             | WGS-84       | GCS, approximating the ellipsoid of Earth 
+| Web Mercator or Pseudo Mercator        | -            | PCS of WGS-84 
+| 1936 Ordnance Survey Great Britain     | OSGB-36      | GCS, approximating the ellipsoid of Britain 
+| British National Grid                  | BNG          | PCS of OSGB-36 
+| European Petroleum Survey Group        | EPSG         | EPSG codes define different GCSs and PCSs 
 
 ### Functions
 
@@ -22,7 +22,7 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 2. **Projecting** DEM data from current GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-3. **Visualising** DEM data in different PCSs as 2D images.
+3. **Visualizing** DEM data in different PCSs as 2D images.
 
 4. **Obtaining** elevation of specific locations from DEM data in different GCSs.
 
@@ -36,7 +36,7 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* Step 2 Processing: Transforming, projecting, visualising DEM data and obtaining elevation values.
+* Step 2 Processing: Transforming, projecting, visualizing DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
@@ -78,7 +78,7 @@ $ gdal-config --version
 ```bash
 $ cd path/of/downloaded/gdal/package
 
-$ tar -xvzf gdal-version.tar.gz 
+$ tar -xvzf gdal-version.tar.gz
 # E.g., tar -xvzf gdal-1.11.3.tar.gz
 
 $ cd extracted/gdal/folder
@@ -96,7 +96,7 @@ $ python setup.py install
 
 ## DEM Data
 
-ASTGDEMv2 data is used in this code. See [Intorduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTGDEMv2.pdf) for details (highly recommanded for tyro).
+ASTGDEMv2 data is used in this code. See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
 
 ## Usage
 
@@ -106,23 +106,23 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 ## Results
 
-2D DEM image of London in Web Meractor PCS (EPSG-3857):
+#### 2D DEM image of London in Web Mercator PCS (EPSG-3857)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-2D DEM image of London in BNG PCS (EPSG-27700):
+##### 2D DEM image of London in BNG PCS (EPSG-27700)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
-Elevation of 5 Locations in London
+#### Elevation of 5 Locations in London
 
 | No. | Latitude | Longitude | Elevation from WGS-84 (m) | Elevation from OSGB-36 (m) | Elevation from Google Earth (m) 
 | --- | -------- | --------- | ------------------------- | -------------------------- | ------------------------------- 
-| 1   | 51.52104 | -0.21349  | 31 (+7)                   | 22 (-1)                    | 23
-| 2   | 51.52770 | -0.12905  | 40 (+0)                   | 25 (-15)                   | 40 (Building/Road)
-| 3   | 51.42525 | -0.34560  | 24 (+12)                  | 14 (+2)                    | 12
+| 1   | 51.52104 | -0.21349  | 31 (+7)                   | 22 (-1)                    | 23 
+| 2   | 51.52770 | -0.12905  | 40 (+0)                   | 25 (-15)                   | 40 (Building/Road) 
+| 3   | 51.42525 | -0.34560  | 24 (+12)                  | 14 (+2)                    | 12 
 | 4   | 51.45635 | 0.040725  | 41 (+13)                  | 25 (-3)                    | 28 
-| 5   | 51.45258 | 0.070766  | 79 (+14)                  | 68 (+3)                    | 65
+| 5   | 51.45258 | 0.070766  | 79 (+14)                  | 68 (+3)                    | 65 
 
 ## References (Highly Recommended for Tyro)
 
