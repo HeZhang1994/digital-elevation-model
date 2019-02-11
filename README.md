@@ -40,7 +40,7 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
-**Note: DEM data in GCS can not be directly plotted on 2D images. Projection is required for visulizing.**
+**Note: DEM data in GCS can not be directly/correctly displayed on 2D images without projection!!!**
 
 ## Environment
 
