@@ -94,9 +94,9 @@ ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf]
 
 ## Usage
 
-Download 
+Download and copy ASTGDEMv2 data of London (ASTGTM2_N51W001_dem.tif and ASTGTM2_N51E000_dem.tif) to ```DATA_ASTGDEMv2/EPSG4326/```.
 
-See the comments in the code for more details.
+Then run Python code in run_ASTGDEMv2.ipynb (see comments for more details).
 
 ## Results
 
