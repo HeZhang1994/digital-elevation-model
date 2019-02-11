@@ -100,10 +100,10 @@ See the comments in the code for more details.
 
 ## Results
 
-2D DEM image of London in Web Meractor PCS (EPSG-3857)
+2D DEM image of London in Web Meractor PCS (EPSG-3857):
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG3857.png)
 
-2D DEM image of London in BNG PCS (EPSG-27700)
+2D DEM image of London in BNG PCS (EPSG-27700):
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
