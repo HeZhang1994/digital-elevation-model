@@ -1,19 +1,20 @@
 # Digital Elevation Model Tools
 
-This is the **Python** implementation of **Digital Elevation Model (DEM)** tools.
+This is the **Python** implemented tools of processing **Digital Elevation Model (DEM)**.
 
 ### Important Terms and Abbrevations:
 
 | Term                                   | Abbrevation | Remark 
 | -------------------------------------- | :---------: | :----: 
 | Digital Elevation Model                | DEM         | 
-| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod
-| Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane
-| Georeferenced Tagged Image File Format | GeoTIFF     | DEM data format
-| World Geodetic System 1984             | WGS-84      | GCS, approximating the spheriod of earth
-| Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84
-| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of UK
-| British National Grid                  | BNG         | PCS of OSGB-36
+| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod 
+| Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
+| Georeferenced Tagged Image File Format | GeoTIFF     | DEM data format 
+| World Geodetic System 1984             | WGS-84      | GCS, approximating the spheriod of earth 
+| Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84 
+| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of UK 
+| British National Grid                  | BNG         | PCS of OSGB-36 
+| European Petroleum Survey Group        | EPSG        | EPSG codes define different GCSs and PCSs 
 
 ### Functions:
 
