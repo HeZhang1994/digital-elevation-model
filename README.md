@@ -4,11 +4,13 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 
 ### Important Terms and Abbrevations:
 
-| Term                         | Abbrevation | Remark 
-| ---------------------------- | :---------: | :----: 
-| Digital Elevation Model      | DEM         | 
-| Geographic Coordinate System | GCS         | 3D 
-| Projected Coordinate System  | PCS         | 2D 
+| Term                                   | Abbrevation | Remark 
+| -------------------------------------- | :---------: | :----: 
+| Digital Elevation Model                | DEM         | 
+| Geographic Coordinate System           | GCS         | 3D 
+| Projected Coordinate System            | PCS         | 2D 
+| Georeferenced Tagged Image File Format | GeoTIFF     | 2D 
+
 
 
 ### Functions:
@@ -21,4 +23,6 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 
 4. **Reading** elevation of specific locations from DEM in GCS.
 
-## DEM Data - ASTER GDEM
+## DEM Dataset - ASTER GDEM
+
+The ASTER GDEM covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile contains at least 0.01% land surface (thats why tiles that contain only ocean area are missing XD). Its data format is **GeoTIFF (.tif)**.
