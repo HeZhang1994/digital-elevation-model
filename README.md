@@ -40,7 +40,7 @@ This code has been tested on **Ubuntu 16.04** operating system.
 
 ## Language
 
-* __Python 3.7 (3.0+)__
+* __Python 3.7 (3.0+ Kernel for Jupyter Notebook)__
 
 ## Dependency
 
@@ -57,9 +57,6 @@ $ export C_INCLUDE_PATH=/usr/include/gdal
 Then, install GDAL Python Libraries:
 ```bash
 $ pip install GDAL
-# or
-$ pip3 install GDAL
-# if both py2 and py3 exist on your operating system.
 ```
 
 If it comes with the error: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
@@ -73,7 +70,21 @@ Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g
 
 Manually install GDAL Python Libraries:
 ```bash
+$ cd path/of/downloaded/gdal/package
+
+$ tar -xvzf gdal-version.tar.gz 
+# E.g., tar -xvzf gdal-1.11.3.tar.gz
+
+$ cd extracted/gdal/folder
+# E.g., cd gdal-1.11.3
+
+$ cd swig
+$ cd python
+$ python setup.py build_ext --include-dirs=/usr/include/gdal/
+$ python setup.py install
 ```
+
+Try ```from osgeo import gdal``` in python. If it does not come with any error, the installation is completed.
 
 ## DEM Data
 
