@@ -7,9 +7,7 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 | Term                         | Abbrevation | Remark |
 | ---------------------------- | :---------: | :----: |
 | Digital Elevation Model      | DEM         |        |
-| ---------------------------- | :---------: | :----: |
 | Geographic Coordinate System | GCS         |        |
-| ---------------------------- | :---------: | :----: |
 | Projected Coordinate System  | PCS         |        |
 
 
