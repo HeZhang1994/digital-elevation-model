@@ -90,7 +90,7 @@ $ python setup.py install
 
 ## DEM Data
 
-ASTGDEMv2 data is used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for details (highly recommanded for tyro).
+ASTGDEMv2 data is used in this code. See [Intorduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTGDEMv2.pdf) for details (highly recommanded for tyro).
 
 ## Usage
 
