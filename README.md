@@ -53,15 +53,17 @@ The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Globa
 
 &#8195; &#8194; **Remark**: The file name only provide **approximeated** latitude and logitude of bottom-left corner. Users are required to use the latitude and longitude recorded in GeoTransform parameters of dem file.
 
-**Summary** The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
+**Summary**: The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
 
 ### Data Download
 
-ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs.gov/) (recommanded) or from [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
+The ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs.gov/) (recommanded) or from [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
 
 #### EarthExplorer User Guide
 
-For **EarthExplorer** users, open the link above and click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, click the "**Additional Criteria**" tag to filter the dataset and download required data files.
+For **EarthExplorer** users, open the webpage of [EarthExplorer](https://earthexplorer.usgs.gov/). Click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, set the filter criteria in the "**Additional Criteria**" tag for downloading required DEM data (see x for details). 
+
+For example, to download DEM data of London, set 
 
 
 
