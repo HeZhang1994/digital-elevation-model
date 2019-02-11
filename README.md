@@ -37,7 +37,7 @@ The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Globa
 
 ### Data Characteristics
 
-The ASTGDEMv2 covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile is a block of earch surface that contains at least 0.01% land area. Thus, do not be surprised that tiles which contain only ocean area are missing. The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** data format. The data are posted on a **1 arc-second (~30m at the equator)** grid and referenced in **WGS-84 GCS** (i.e., the **column** of data array represents the **longitude**, and the **row** represents the **latitude** of a specific location). 
+The ASTGDEMv2 covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile is a block of earch surface that contains at least 0.01% land area. Thus, do not be surprised that tiles which contain only ocean area are missing. The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** data format. The data are posted on a **1 arc-second (~30m at the equator)** grid and referenced in **WGS-84 GCS**. In this case, <u>the column of data array represents the longitude, and the row represents the latitude of a specific location</u>. 
 
 ### Download
 
