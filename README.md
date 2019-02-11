@@ -43,17 +43,17 @@ The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Globa
 
 - The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** image/data format. The data are posted on a **1 arc-second (1"~30m at the equator)** grid. The size of each tile is 1°x1° or **3601"x3601"**.
 
-**Remark**: The four edges of each tile are overlapped with its four adjacent tiles. Users should remove overlapped elements and merge the related tiles when more than one tile is used.
+&#8195; &#8194; **Remark**: The four edges of each tile are overlapped with its four adjacent tiles. Users should remove overlapped elements and merge the related tiles when more than one tile is used.
 
 - The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the Earth.
 
-**Remark**: The WGS-84 useing a reference ellipsoid to approxiate the overall surface of the Earth. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which uses another reference ellipsoid to accurately describing locations in Britain.
+&#8195; &#8194; **Remark**: The WGS-84 useing a reference ellipsoid to approxiate the overall surface of the Earth. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which uses another reference ellipsoid to accurately describing locations in Britain.
 
 - The ASTGDEMv2 data package (.zip) is named as, e.g., ASTGTM2_N51W001.zip, where "N51" and "W001" denote the approxied latitude and longitude of the geospatial location of bottom-left (southwest) corner. Each package includes three files: A readme file (.pdf), a dem file (\_dem.tif), and a quality assessment file (\_num.tif). The dem file (\_dem.tif) contains elevation data.
 
-**Remark**: The file name only provide **approximeated** latitude and logitude of bottom-left corner. Users are required to use the latitude and longitude recorded in GeoTransform parameters of dem file.
+&#8195; &#8194; **Remark**: The file name only provide **approximeated** latitude and logitude of bottom-left corner. Users are required to use the latitude and longitude recorded in GeoTransform parameters of dem file.
 
-- The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
+**Summary** The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
 
 ### Data Download
 
