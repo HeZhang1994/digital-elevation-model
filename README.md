@@ -47,9 +47,11 @@ The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **gr
 
 ### Download
 
-ASTGDEMv2 data can be downloaded from **[EarthExplorer]**(https://earthexplorer.usgs.gov/) (recommanded) or from **[NASA Earthdata Search]**(https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
+ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs.gov/) (recommanded) or from [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
 
-For EarthExplorer users, 
+#### Useful Guide
+
+For **EarthExplorer** users, open the link above and click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, click the "Additional Criteria" tag if you only need DEM data in a small region.
 
 
 
