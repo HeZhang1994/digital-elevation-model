@@ -80,6 +80,8 @@ $ cd extracted/gdal/folder
 
 $ cd swig
 $ cd python
+# setup.py exists under this directory.
+
 $ python setup.py build_ext --include-dirs=/usr/include/gdal/
 $ python setup.py install
 ```
@@ -90,9 +92,23 @@ Try ```from osgeo import gdal``` in python. If it does not come with any error, 
 
 ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for more details.
 
+## Usage
+
+See detailed comments in the code.
+
 ## Results
 
-res
+2D DEM image of London in Web Meractor PCS (EPSG-3857)
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG3857.png)
+
+2D DEM image of London in BNG PCS (EPSG-27700)
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
+
+
+
+
 
 
 
