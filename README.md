@@ -39,7 +39,7 @@ The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Globa
 
 - The ASTGDEMv2 is comrised of 22702 tiles covering land surfaces between **83°N** and **83°S**. Each tile is a **1°x1°** block of earch surface that contains at least 0.01% land area. Thus, tiles which contain only ocean area are missing.
 
-&#8195; &#8195; &#8195;**Remark**: The advantage of using 1°x1° tiles is that its much more efficient for geographic data processing in a small region. For example, covering the main area of London requires only two tiles.
+&#8195; &#8195; **Remark**: The advantage of using 1°x1° tiles is that its much more efficient for geographic data processing in a small region. For example, covering the main area of London requires only two tiles.
 
 - The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** image/data format. The data are posted on a **1 arc-second (1"~30m at the equator)** grid. The size of each tile is 1°x1° or **3601"x3601"**.
 
