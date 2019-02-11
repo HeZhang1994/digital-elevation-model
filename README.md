@@ -32,7 +32,13 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ### Flow Chart
 
-fig tbc...
+* Step 1 Pre-processing DEM Data
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
+
+* Step 2 Processing DEM Data
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
 ## Environment
 
@@ -102,11 +108,11 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 2D DEM image of London in Web Meractor PCS (EPSG-3857):
 
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG3857.png)
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
 2D DEM image of London in BNG PCS (EPSG-27700):
 
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
 Elevation of 5 Locations in London
 
