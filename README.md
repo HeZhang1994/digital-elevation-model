@@ -31,7 +31,7 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 1. Can not visualize 3D land surface.
 
 
-## DEM Dataset - ASTER GDEM v2
+## DEM Data - ASTGDEMv2
 
 The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Digital Elevation Model (GDEM), i.e., ASTER GDEM or ASTGDEM, is a product of the Ministry of Economy, Trade, and Industry (METI) in Japan and the National Aeronautic and Space Administration (NASA) in United States. The source data were collected by the **Advanced Spaceborne Thermal Emission and Reflection Radiometer** on the NASA spacecraft **Terra**. The ASTGDEM version 1 (ASTGDEMv1) dara were released on 2009 and the ASTGDEM version 2 (ASTGDEMv2) data were released on 2011. The ASTGDEMv2 data are used in this code (reasons are explained below).
 
@@ -47,7 +47,7 @@ The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **gr
 
 ### Download
 
-ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs.gov/) (recommanded) or from [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
+ASTGDEMv2 data can be downloaded from **[EarthExplorer]**(https://earthexplorer.usgs.gov/) (recommanded) or from **[NASA Earthdata Search]**(https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
 
 For EarthExplorer users, 
 
