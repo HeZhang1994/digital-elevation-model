@@ -7,17 +7,19 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 | Term                                   | Abbrevation | Remark 
 | -------------------------------------- | :---------: | :----: 
 | Digital Elevation Model                | DEM         | 
-| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D Spheriod
-| Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D Plane
-| Georeferenced Tagged Image File Format | GeoTIFF     | DEM Data Format
-
-
+| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod
+| Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane
+| Georeferenced Tagged Image File Format | GeoTIFF     | DEM data format
+| World Geodetic System 1984             | WGS-84      | GCS, approximating the spheriod of earth
+| Web Mercator or Pseudo Mercator        |             | PCS of WGS-84
+| Ordnance Survey Great Britain 1936     | OSGB-36     | GCS, approximating the spheriod of UK
+| British National Grid                  | BNG         | PCS of OSGB-36
 
 ### Functions:
 
-1. **Transforming** DEM from current GCS to another GCS.
+1. **Transforming** DEM from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-2. **Projecting** DEM from current GCS to the corresponding PCS.
+2. **Projecting** DEM from current GCS (e.g., OSGB-36) to the corresponding PCS (e.g., BNG).
 
 3. **Visuzlising** DEM in PCS as 2D image.
 
