@@ -29,3 +29,15 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 ### Limitation
 
 1. Can not visualize 3D land surface.
+
+## DEM Data
+
+ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for more details.
+
+## Dependencies
+
+* __GDAL__
+
+
+
+
