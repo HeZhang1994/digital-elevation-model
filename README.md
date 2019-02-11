@@ -61,7 +61,7 @@ The ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.
 
 #### EarthExplorer User Guide
 
-For **EarthExplorer** users, open the webpage of [EarthExplorer](https://earthexplorer.usgs.gov/). Click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, set the filter criteria in the "**Additional Criteria**" tag for downloading required DEM data (see [EarthExplorer User Guide] (https://lta.cr.usgs.gov/DD/ASTER_GDEM.html#entity_id_aster_gdem) or a copy [EarthExplorer User Guide.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/EarthExplorer%20User%20Guide.txt) for more details). 
+For **EarthExplorer** users, open the webpage of [EarthExplorer](https://earthexplorer.usgs.gov/). Click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, set the filter criteria in the "**Additional Criteria**" tag for downloading required DEM data (see [EarthExplorer User Guide](https://lta.cr.usgs.gov/DD/ASTER_GDEM.html#entity_id_aster_gdem) or a copy [EarthExplorer User Guide.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/EarthExplorer%20User%20Guide.txt) for more details). 
 
 For example, to download DEM data of London (51°N, 0°E), set the  
 
