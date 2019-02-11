@@ -69,7 +69,7 @@ Check the required/installed version of GDAL Python Libraries on your Ubuntu ope
 $ gdal-config --version
 ```
 
-Download the source file (http://download.osgeo.org/gdal/1.11.3/gdal-1.11.3.tar.gz - source as .tar.gz) of related GDAL version (i.e., 1.11.3) from [link](http://trac.osgeo.org/gdal/wiki/DownloadSource)
+Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g., 1.11.3) from [GDAL website](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
 ## DEM Data
 
