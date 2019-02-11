@@ -30,13 +30,24 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 
 1. Can not visualize 3D land surface.
 
+## Environment
+
+This code has been tested on **Ubuntu 16.04**.
+
+## Language
+
+* __Python 3.7 (3.0+)__
+
+## Dependency
+
+* __GDAL 1.11.3__
+
 ## DEM Data
 
 ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Intorduction%20of%20ASTER%20GDEM%20data.pdf) for more details.
 
-## Dependencies
 
-* __GDAL__
+
 
 
 
