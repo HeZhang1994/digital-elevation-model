@@ -5,7 +5,7 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 ### Important Terms and Abbrevations
 
 | Term                                   | Abbrevation | Remark 
-| -------------------------------------- | :---------: | :----: 
+| -------------------------------------- | ----------- | ------ 
 | Digital Elevation Model                | DEM         | 
 | Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod 
 | Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
@@ -94,7 +94,9 @@ ASTER GDEM data are used in this code. See [Intorduction of ASTER GDEM data.pdf]
 
 ## Usage
 
-See detailed comments in the code.
+Download 
+
+See the comments in the code for more details.
 
 ## Results
 
@@ -105,12 +107,3 @@ See detailed comments in the code.
 2D DEM image of London in BNG PCS (EPSG-27700)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
-
-
-
-
-
-
-
-
-
