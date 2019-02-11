@@ -2,7 +2,7 @@
 
 This is the **Python** implementation of **Digital Elevation Model (DEM)** tools.
 
-### Terms and Abbrevations:
+### Important Terms and Abbrevations:
 
 | Term                         | Abbrevation | Remark 
 | ---------------------------- | :---------: | :----: 
@@ -20,3 +20,5 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 3. **Visuzlising** DEM in PCS as 2D image.
 
 4. **Reading** elevation of specific locations from DEM in GCS.
+
+## DEM Data - ASTER GDEM
