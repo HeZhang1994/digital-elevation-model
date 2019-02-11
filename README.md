@@ -2,7 +2,7 @@
 
 This is the **Python** implemented tools of processing **Digital Elevation Model (DEM)**.
 
-### Important Terms and Abbrevations:
+### Important Terms and Abbrevations
 
 | Term                                   | Abbrevation | Remark 
 | -------------------------------------- | :---------: | :----: 
@@ -12,11 +12,11 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 | Georeferenced Tagged Image File Format | GeoTIFF     | DEM image/data format (.tif) 
 | 1984 World Geodetic System             | WGS-84      | GCS, approximating the spheriod of Earth 
 | Web Mercator or Pseudo Mercator        | -           | PCS of WGS-84 
-| 1936 Ordnance Survey Great Britain     | OSGB-36     | GCS, approximating the spheriod of Britain   
+| 1936 Ordnance Survey Great Britain     | OSGB-36     | GCS, approximating the spheriod of Britain 
 | British National Grid                  | BNG         | PCS of OSGB-36 
 | European Petroleum Survey Group        | EPSG        | EPSG codes define different GCSs and PCSs 
 
-### Functions:
+### Functions
 
 1. **Transforming** DEM from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
@@ -26,7 +26,7 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 
 4. **Reading** elevation of specific location from DEM in GCS.
 
-### Limitations:
+### Limitation
 
 1. Can not visualize 3D land surface.
 
@@ -43,6 +43,8 @@ The ASTGDEMv2 is distributed in **GeoTIFF (.tif)** image/data format. The data a
 
 The ASTGDEMv2 data are referenced in **WGS-84 GCS**. In this case, the [**column**, **row**] of image/data array of one tile represents the [**longitude**, **latitude**] of a specific location on the Earth. [*Remark: The WGS-84 useing a reference ellipsoid to approxiate the overall surface of the Earth. Thus, it might be not accurate in local regions. This is why we transform WGS-84 GCS to OSGB-36 GCS, which uses another reference ellipsoid to accurately describing locations in Britain.*]
 
+The ASTGDEMv2 data package (.zip) is named as, e.g., ASTGTM2_N51W001.zip, where "N51" and "W001" denote the approxied latitude and longitude of the geospatial location of bottom-left (southwest) corner. Each package includes three files: A readme file (.pdf), a dem file (\_dem.tif), and a quality assessment file (\_num.tif). The dem file (\_dem.tif) contains elevation data. [*Remark: The file name only provide **approximeated** latitude and logitude of bottom-left corner. Users are required to use the latitude and longitude recorded in GeoTransform parameters of dem file.*]
+
 The ASTGDEMv2 has **high resolution (~30m)**, **high accuracy (<20m)**, and **great land coverage (~80% of the Earth)**. Thus, the ASTGDEMv2 data are used in this code.
 
 ### Data Download
@@ -51,11 +53,7 @@ ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs
 
 #### EarthExplorer User Guide
 
-For **EarthExplorer** users, open the link above and click the "**Data Sets**" tag. 
-
-Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. 
-
-Next, click the "Additional Criteria" tag if you only need DEM data in a small region.
+For **EarthExplorer** users, open the link above and click the "**Data Sets**" tag. Then, search or select the "**Digital Elevation**" category and select the "**ASTER GLOBAL DEM**" on the data list. Next, click the "**Additional Criteria**" tag to filter the dataset and download required data files.
 
 
 
