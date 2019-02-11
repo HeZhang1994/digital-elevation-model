@@ -10,10 +10,10 @@ This is the **Python** implemented tools for processing **DEM** data.
 | Geographic Coordinate System           | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
 | Projected Coordinate System            | PCS          | [X-axis, Y-axis, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format | GeoTIFF      | DEM image/data format (.tif) 
-| 1984 World Geodetic System             | WGS-84       | GCS, approximating the ellipsoid of Earth 
-| Web Mercator or Pseudo Mercator        | -            | PCS of WGS-84 
-| 1936 Ordnance Survey Great Britain     | OSGB-36      | GCS, approximating the ellipsoid of Britain 
-| British National Grid                  | BNG          | PCS of OSGB-36 
+| 1984 World Geodetic System             | WGS-84       | GCS, EPSG-4326, approximating the ellipsoid of Earth 
+| Web Mercator or Pseudo Mercator        | -            | PCS of WGS-84, EPSG-3857 
+| 1936 Ordnance Survey Great Britain     | OSGB-36      | GCS, EPSG-4277, approximating the ellipsoid of Britain 
+| British National Grid                  | BNG          | PCS of OSGB-36, EPSG-27700 
 | European Petroleum Survey Group        | EPSG         | EPSG codes define different GCSs and PCSs 
 
 ### Functions
