@@ -7,7 +7,7 @@ This is the **Python** implemented tools for processing **DEM** data.
 | Term                                   | Abbrevation | Remark 
 | -------------------------------------- | ----------- | ------ 
 | Digital Elevation Model                | DEM         | 
-| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D spheriod 
+| Geographic Coordinate System           | GCS         | [Longitude, Latitude, Elevation] on 3D ellipsoid 
 | Projected Coordinate System            | PCS         | [X-axis, Y-axis, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format | GeoTIFF     | DEM image/data format (.tif) 
 | 1984 World Geodetic System             | WGS-84      | GCS, approximating the spheriod of Earth 
