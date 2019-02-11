@@ -32,11 +32,11 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ### Flow Chart
 
-* Step 1 Pre-processing DEM Data
+* Step 1 Pre-processing: Removing overlapped elements and merge data arrays of different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* Step 2 Processing DEM Data
+* Step 2 Processing: Transforming, projecting, visualising DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
