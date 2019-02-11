@@ -1,4 +1,4 @@
-# Digital Elevation Model Python Tools
+# Python Tools for Digital Elevation Model
 
 This is the **Python** implemented tools of processing **Digital Elevation Model (DEM)**.
 
