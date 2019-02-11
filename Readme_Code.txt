@@ -1,4 +1,3 @@
-
 run_xxx.ipynb
 	- Remove overlapped elements of source ASTGDEMv2 data in WGS-84 GCS.
 	- Merge reformed ASTGDEMv2 data in WGS-84 GCS.
@@ -6,4 +5,3 @@ run_xxx.ipynb
 	- Project ASTGDEMv2 data x2.
 	- Display ASTGDEMv2 data x2.
 	- Get elevation of air quality stations x2.
-
