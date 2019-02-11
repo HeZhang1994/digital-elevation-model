@@ -112,19 +112,19 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-#### 2D DEM image of London in BNG PCS (EPSG-27700)
+### 2D DEM image of London in BNG PCS (EPSG-27700)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
 ### Elevation of 5 Locations in London
 
 | No. | Latitude | Longitude | Elevation in WGS-84 (m) | Elevation in OSGB-36 (m) | Elevation in Google Earth (m) 
-| --- | -------- | --------- | ------------------------- | -------------------------- | ------------------------------- 
-| 1   | 51.52104 | -0.21349  | 31 (+7)                   | 22 (-1)                    | 23 
-| 2   | 51.52770 | -0.12905  | 40 (+0)                   | 25 (-15)                   | 40 (Building/Road) 
-| 3   | 51.42525 | -0.34560  | 24 (+12)                  | 14 (+2)                    | 12 
-| 4   | 51.45635 | 0.040725  | 41 (+13)                  | 25 (-3)                    | 28 
-| 5   | 51.45258 | 0.070766  | 79 (+14)                  | 68 (+3)                    | 65 
+| --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
+| 1   | 51.52104 | -0.21349  | 31 (+7)                 | 22 (-1)                  | 23 
+| 2   | 51.52770 | -0.12905  | 40 (+0)                 | 25 (-15)                 | 40 (Building/Road) 
+| 3   | 51.42525 | -0.34560  | 24 (+12)                | 14 (+2)                  | 12 
+| 4   | 51.45635 | 0.040725  | 41 (+13)                | 25 (-3)                  | 28 
+| 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
 
 ## References (Highly Recommended for Tyro)
 
