@@ -26,13 +26,13 @@ This is the **Python** implemented tools of processing **Digital Elevation Model
 
 4. **Reading** elevation of specific location from DEM in GCS.
 
-### Flow Chart
-
-fig
-
 ### Limitation
 
 1. Can not visualize 3D land surface.
+
+### Flow Chart
+
+fig tbc...
 
 ## Environment
 
@@ -110,8 +110,8 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see comments for more detail
 
 ## References
 
-[1] 
+[1] [EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)](http://lyzidiamond.com/posts/4326-vs-3857)
 
-[2] 
+[2] [Coordinate systems and projections for beginners](https://communityhub.esriuk.com/geoxchange/2012/3/26/coordinate-systems-and-projections-for-beginners.html)
 
-[3] 
+[3] [CSDN Blog](https://blog.csdn.net/liuhailiuhai12/article/details/75007417)
