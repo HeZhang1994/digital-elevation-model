@@ -96,9 +96,9 @@ $ python setup.py install
 
 6. Try ```>>> from osgeo import gdal``` in python. If no error occurs, the installation is completed.
 
-## DEM Data
+## Data
 
-ASTGDEMv2 data is used in this code. See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
+ASTGDEMv2 data are used in this code. See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
 
 ## Usage
 
@@ -108,15 +108,15 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 ## Results
 
-#### 2D DEM image of London in Web Mercator PCS (EPSG-3857)
+### 2D DEM image of London in Web Mercator PCS (EPSG-3857)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-##### 2D DEM image of London in BNG PCS (EPSG-27700)
+#### 2D DEM image of London in BNG PCS (EPSG-27700)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
-#### Elevation of 5 Locations in London
+### Elevation of 5 Locations in London
 
 | No. | Latitude | Longitude | Elevation from WGS-84 (m) | Elevation from OSGB-36 (m) | Elevation from Google Earth (m) 
 | --- | -------- | --------- | ------------------------- | -------------------------- | ------------------------------- 
