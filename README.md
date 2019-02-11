@@ -32,19 +32,19 @@ This is the **Python** implementation of **Digital Elevation Model (DEM)** tools
 
 ## DEM Dataset - ASTER GDEM
 
-The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Digital Elevation Model (GDEM), i.e., ASTER GDEM or ASTGDEM, is a product of the Ministry of Economy, Trade, and Industry (METI) in Japan and the National Aeronautic and Space Administration (NASA) in United States. The source data are collected by the **Advanced Spaceborne Thermal Emission and Reflection Radiometer** on the NASA spacecraft **Terra**. ASTGDEM version 1 (ASTGDEMv1) was released on 2009 and ASTGDEM version 2 (ASTGDEMv2) was released on 2011. The ASTGDEMv2 data are used in our code.
+The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Digital Elevation Model (GDEM), i.e., ASTER GDEM or ASTGDEM, is a product of the Ministry of Economy, Trade, and Industry (METI) in Japan and the National Aeronautic and Space Administration (NASA) in United States. The source data were collected by the **Advanced Spaceborne Thermal Emission and Reflection Radiometer** on the NASA spacecraft **Terra**. The ASTGDEM version 1 (ASTGDEMv1) dara were released on 2009 and the ASTGDEM version 2 (ASTGDEMv2) data were released on 2011. The ASTGDEMv2 data are used in this code (reasons are explained below).
+
+### Data Characteristics
+
+The ASTER GDEM covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile contains at least 0.01% land surface. Thus, do not be surprised that tiles which contain only ocean area are missing. 
+
+The data format of ASTER GDEM is **GeoTIFF (.tif)**.
 
 ### Download
 
 ASTGDEMv2 data can be downloaded from [EarthExplorer](https://earthexplorer.usgs.gov/) (recommanded) or from [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?q=ASTGTM%20V002).
 
-### ha
-
-The ASTER GDEM covers land surfaces between **83°N** and **83°S**. It is comrised of 22702 **1°x1° tiles**. Each tile contains at least 0.01% land surface. Do not be surprised that tiles which contain only ocean area are missing. 
-
-The data format of ASTER GDEM is **GeoTIFF (.tif)**.
-
-
+For EarthExplorer users, 
 
 
 
