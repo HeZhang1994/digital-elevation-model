@@ -36,7 +36,7 @@ fig
 
 ## Environment
 
-* __Ubuntu 16.04__
+This code has been tested on **Ubuntu 16.04**.
 
 ## Language
 
@@ -45,6 +45,10 @@ fig
 ## Dependency
 
 * __GDAL 1.11.3__
+
+Check the required GDAL version on your Ubuntu system:
+```
+```
 
 ## DEM Data
 
