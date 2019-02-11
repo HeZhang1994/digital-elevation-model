@@ -96,7 +96,7 @@ ASTGDEMv2 data is used in this code. See [Intorduction of ASTGDEMv2.pdf](https:/
 
 Download and copy ASTGDEMv2 data of London (```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```) to ```DATA_ASTGDEMv2/EPSG4326/``` folder.
 
-Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for more details).
+Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for details).
 
 ## Results
 
@@ -108,11 +108,15 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for more d
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/LD_EPSG27700.png)
 
-Elevation of Locations
+Elevation of 5 Locations in London
 
-| Term                                   | Abbrevation | Remark 
-| -------------------------------------- | ----------- | ------ 
-| Digital Elevation Model                | DEM         | - 
+| No. | Latitude | Longitude | Elevation from WGS-84 (m) | Elevation from OSGB-36 (m) | Elevation from Google Earth (m) 
+| --- | -------- | --------- | ------------------------- | -------------------------- | ------------------------------- 
+| 1   | 51.52104 | -0.21349  | 31 (+7)                   | 22 (-1)                    | 23
+| 2   | 51.52770 | -0.12905  | 40 (+0)                   | 25 (-15)                   | 40 (Building/Road)
+| 3   | 51.42525 | -0.34560  | 24 (+12)                  | 14 (+2)                    | 12
+| 4   | 51.45635 | 0.040725  | 41 (+13)                  | 25 (-3)                    | 28 
+| 5   | 51.45258 | 0.070766  | 79 (+14)                  | 68 (+3)                    | 65
 
 ## References (Highly Recommended for Tyro)
 
