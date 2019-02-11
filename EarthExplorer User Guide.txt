@@ -1,0 +1,112 @@
+
+Download Link:
+https://earthexplorer.usgs.gov/
+
+Dataset Search Format - GOOD:
+ASTGDEMV1_1N01E172
+ASTGDEMV2_N01E172
+
+
+
+Dataset Search Guide - Details:
+Acquisition Date
+Field Definition:  The starting acquisition date the image was acquired.
+Format:
+YYYY/MM/DD
+Agency
+Field Definition:  The Agency which provided the data.
+Browse Availability
+Field Definition:  This flag identifies whether or not the entity has a browse image available with it. A browse image provides the user with a visual overview of an inventory item.
+Check Sum Value
+Field Definition:  The size, in bits, of the scene during transmission, used to check for transmission errors.
+Coordinates - Decimal Degrees
+Field Definition:  The latitude and longitude are provided in decimal degrees for the following fields:
+Values:
+Scene Center Latitude and Longitude
+Northeast (NE) Corner Latitude and Longitude
+Northwest (NW) Corner Latitude and Longitude
+Southeast (SE) Corner Latitude and Longitude
+Southwest (SW) Corner Latitude and Longitude
+
+Latitude Format Decimal Degrees: -90.000 through 90.000 
+Longitude Format Decimal Degrees: -180.000 through 180.000
+
+Number of decimal places will vary by dataset – check collection in EE.
+Coordinates - Degrees, Minutes, Seconds
+Field Definition:  The latitude and longitude are provided in degrees, minutes, and seconds for the following fields:
+Values:
+Scene Center Latitude and Longitude
+Northeast (NE) Corner Latitude and Longitude
+Northwest (NW) Corner Latitude and Longitude
+Southeast (SE) Corner Latitude and Longitude
+Southwest (SW) Corner Latitude and Longitude
+
+Longitude Format:
+DDDMMSS.SSH
+DDD = Degree(s) with a range of 0 through 180
+MM = Minute(s) with a range of 0 through 59
+SS.SS = Second(s) with a range of 0 through 59.99
+H = Hemisphere with E for east and W for west
+
+Latitude Format:
+DDMMSS.SSH
+DD = Degree(s) with a range of 0 through 90
+MM = Minutes(s) with a range of 0 through 59
+SS.SS = Second(s) with a range of 0 through 59.99
+H = Hemisphere with N for north and S for south
+Data Entered
+Field Definition:  The date the data was entered into collection.
+Date of Update
+Field Definition:  The Date of Update refers to the date the inventory record was last updated.
+Entity ID
+Field Definition:  This field uniquely identifies individual ASTER Global DEM images.
+Format:
+ASTGDEMV1_1N01E172
+ASTGDEM = ASTER Global DEM
+1N01E172 = Southwest Corner Coordinate (rounded)
+Ellipsoid
+Field Definition:  The name of ellipsoid used to process this product.
+Values:
+Valid code:
+WGS84
+File Size
+Field Definition:  The size of all files associated with the scene.
+Image Resolution
+Field Definition:  These field identifies the resolution of the image.
+Values:
+1-ARC Second
+Map Projection
+Field Definition:  The map projection of the image.
+Values:
+Geographic
+Number of Bands
+Field Definition:  The number of bands in image.
+Values:
+2
+License ID
+Field Definition:  License ID which identifies which agency has access to the data.
+License Uplift Update
+Field Definition:  Date and time the license id was last updated.
+Product Format
+Field Definition:  The format of the product available for customer use.
+Values:
+GEOTIFF
+Sensor
+Field Definition:  The name of sensor.
+Values:
+ASTER
+Type of Sensor
+Field Definition:  Sensor Type available; Global DEM (GDEM).
+Units
+Field Definition:  The units of measurement.
+Values:
+Degrees
+Vendor
+Field Definition:  The name of Vendor providing data.
+Values:
+NASA/METI
+Version Number
+Field Definition:  The Version number of data.
+Values:
+1.1
+2.0
