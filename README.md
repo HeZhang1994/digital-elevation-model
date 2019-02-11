@@ -14,7 +14,7 @@ This is the **Python** implemented tools for processing **DEM** data.
 | Web Mercator or Pseudo Mercator        | -            | PCS of WGS-84, EPSG-3857 
 | 1936 Ordnance Survey Great Britain     | OSGB-36      | GCS, EPSG-4277, approximating the ellipsoid of Britain 
 | British National Grid                  | BNG          | PCS of OSGB-36, EPSG-27700 
-| European Petroleum Survey Group        | EPSG         | EPSG codes define different GCSs and PCSs 
+| European Petroleum Survey Group        | EPSG         | EPSG codes identify different GCSs and PCSs 
 
 ### Functions
 
