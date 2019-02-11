@@ -18,13 +18,13 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ### Functions
 
-1. **Transforming** DEM from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+1. **Transforming** DEM data from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-2. **Projecting** DEM from current GCS (e.g., WGS-84/OSGB-36) to the corresponding PCS (e.g., Web Mercator/BNG).
+2. **Projecting** DEM data from current GCS (e.g., WGS-84/OSGB-36) to the corresponding PCS (e.g., Web Mercator/BNG).
 
-3. **Visualising** DEM in PCS as 2D image.
+3. **Visualising** DEM data in PCS as 2D image.
 
-4. **Reading** elevation of specific location from DEM in GCS.
+4. **Obtaining** elevation of specific location from DEM data in GCS.
 
 ### Limitation
 
