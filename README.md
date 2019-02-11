@@ -50,7 +50,7 @@ To begin with, install GDAL development libraries and export environment variabl
 ```bash
 $ sudo apt-get install libgdal-dev
 
-$ export environment variables for the compiler
+$ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
