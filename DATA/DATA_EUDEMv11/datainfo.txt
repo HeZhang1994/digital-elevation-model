@@ -1,2 +1,0 @@
-EUDEMv11_EPSG3035.tif
-same as eu_dem_v11_E30N30.tif
