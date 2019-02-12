@@ -11,11 +11,11 @@ This is the **Python** implemented tools for processing **DEM** data.
 | Projected Coordinate System                | PCS          | [X-axis, Y-axis, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | DEM image/data format (.tif) 
 | European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
-| 1984 World Geodetic System                 | WGS-84       | GCS, EPSG-4326, approximating the ellipsoid of Earth 
+| 1984 World Geodetic System                 | WGS-84       | GCS, EPSG-4326, approx. the ellipsoid of Earth 
 | Web Mercator or Pseudo Mercator            | -            | PCS of WGS-84, EPSG-3857 
-| 1936 Ordnance Survey Great Britain         | OSGB-36      | GCS, EPSG-4277, approximating the ellipsoid of Britain 
+| 1936 Ordnance Survey Great Britain         | OSGB-36      | GCS, EPSG-4277, approx. the ellipsoid of Britain 
 | British National Grid                      | BNG          | PCS of OSGB-36, EPSG-27700 
-| 1989 European Terrestrial Reference System | ETRS-89      | GCS, EPSG-4258, approximating the ellipsoid of Europe 
+| 1989 European Terrestrial Reference System | ETRS-89      | GCS, EPSG-4258, approx. the ellipsoid of Europe 
 
 ### Functions
 
