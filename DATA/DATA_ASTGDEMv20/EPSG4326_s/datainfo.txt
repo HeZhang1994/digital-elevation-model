@@ -1,2 +1,0 @@
-ASTGTM2_N51E000_dem.tif
-ASTGTM2_N51W001_dem.tif
