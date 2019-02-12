@@ -36,11 +36,11 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 
 ### Flow Chart
 
-* Step 1 Pre-processing of ASTGDEMv2 data: Removing overlapped elements and merge data arrays of different tiles.
+* **Step 1** Pre-processing of ASTGDEMv2 data: Removing overlapped elements and merge data arrays of different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* Step 2 Processing of ASTGDEMv2 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+* **Step 2** Processing of ASTGDEMv2 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
@@ -100,7 +100,15 @@ $ python setup.py install
 
 ## Data
 
-ASTGDEMv2 data are used in this code. See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
+**ASTGDEMv2.0 data**
+
+Download Link: https://earthexplorer.usgs.gov/
+
+See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
+
+**EUDEMv1.1 data**
+
+Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Usage
 
