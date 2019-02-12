@@ -118,9 +118,10 @@ To get view and get the elevation in London:
 - Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
 - Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
-to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` and rename as ```EUDEMv11_EPSG3035.tif```.
+- Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
+- Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
-Then, run ```run_ASTGDEMv2.ipynb``` (see code comments for details).
+Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for details).
 
 ## Results
 
