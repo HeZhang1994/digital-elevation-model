@@ -1,0 +1,25 @@
+,api_data,need_prediction,historical_data,Latitude,Longitude,SiteType,SiteName
+BX9,TRUE,,TRUE,51.46598327,0.184877127,Suburban,Bexley - Slade Green FDMS
+BX1,TRUE,,TRUE,51.46598327,0.184877127,Suburban,Bexley - Slade Green
+BL0,TRUE,TRUE,TRUE,51.522287,-0.125848,Urban Background,Camden - Bloomsbury
+CD9,TRUE,TRUE,TRUE,51.52770662,-0.129053205,Roadside,Camden - Euston Road
+CD1,TRUE,TRUE,TRUE,51.544219,-0.175284,Kerbside,Camden - Swiss Cottage
+CT2,TRUE,,TRUE,51.51452534,-0.104515626,Kerbside,City of London - Farringdon Street
+CT3,TRUE,,TRUE,51.51384718,-0.077765682,Urban Background,City of London - Sir John Cass School
+CR8,,,TRUE,51.410039,-0.127523,Urban Background,Croydon - Norbury Manor
+GN0,TRUE,TRUE,TRUE,51.490532,0.074003,Roadside,Greenwich - A206 Burrage Grove
+GR4,TRUE,TRUE,TRUE,51.45258,0.070766,Suburban,Greenwich - Eltham
+GN3,TRUE,TRUE,TRUE,51.486957,0.095111,Roadside,Greenwich - Plumstead High Street
+GR9,TRUE,TRUE,TRUE,51.456357,0.040725,Roadside,Greenwich - Westhorne Avenue
+GB0,,,TRUE,51.4563,0.085606,Roadside,Greenwich and Bexley - Falconwood FDMS
+HR1,,,TRUE,51.617327,-0.298775,Urban Background,Harrow - Stanmore
+HV1,TRUE,TRUE,TRUE,51.52078746,0.205460706,Roadside,Havering - Rainham
+LH0,,,TRUE,51.48878,-0.441627,Urban Background,Hillingdon - Harlington
+KC1,,,TRUE,51.52104675,-0.21349214,Urban Background,Kensington and Chelsea - North Ken
+KF1,TRUE,TRUE,TRUE,51.52104675,-0.21349214,Urban Background,Kensington and Chelsea - North Ken FIDAS
+LW2,TRUE,TRUE,TRUE,51.474954,-0.039641,Roadside,Lewisham - New Cross
+RB7,TRUE,,TRUE,51.56948433,0.082907475,Urban Background,Redbridge - Ley Street
+TD5,TRUE,,TRUE,51.42525604,-0.345608291,Suburban,Richmond Upon Thames - Bushy Park
+ST5,TRUE,TRUE,TRUE,51.3892869,-0.141661525,Industrial,Sutton - Beddington Lane north
+TH4,TRUE,TRUE,TRUE,51.51504617,-0.008418493,Roadside,Tower Hamlets - Blackwall
+MY7,TRUE,TRUE,TRUE,51.52254,-0.15459,Kerbside,Westminster - Marylebone Road FDMS
