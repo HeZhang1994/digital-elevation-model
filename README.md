@@ -18,13 +18,17 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ### Functions
 
-1. **Transforming** DEM data from current GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+1. **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-2. **Projecting** DEM data from current GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
+2. **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-3. **Visualizing** DEM data in different PCSs as 2D images.
+3. **Re-Projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-4. **Obtaining** elevation of specific locations from DEM data in different GCSs.
+4. **Visualizing** DEM data in different PCSs as 2D images.
+
+5. **Obtaining** elevation of specific locations from different DEM data in different GCSs.
+
+See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details.
 
 ### Limitation
 
@@ -32,15 +36,13 @@ This is the **Python** implemented tools for processing **DEM** data.
 
 ### Flow Chart
 
-* Step 1 Pre-processing: Removing overlapped elements and merge data arrays of different tiles.
+* Step 1 Pre-processing of ASTGDEMv2 data: Removing overlapped elements and merge data arrays of different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* Step 2 Processing: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+* Step 2 Processing of ASTGDEMv2 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
-
-**Note: DEM data in GCS can not be directly/correctly displayed on 2D images without projection!!!**
 
 ## Environment
 
