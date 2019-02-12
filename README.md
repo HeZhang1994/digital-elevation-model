@@ -112,7 +112,7 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Usage
 
-Download and copy ASTGDEMv2 data of London (```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```) to ```DATA_ASTGDEMv2/EPSG4326/``` folder.
+Download and copy ASTGDEMv2 data (```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```) to ```DATA/DATA_ASTGDEMv2/EPSG4326/``` folder.
 
 Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for details).
 
