@@ -151,4 +151,4 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 [3] [CSDN Blog](https://blog.csdn.net/liuhailiuhai12/article/details/75007417)
 
-<i>Last Updated: 11/02/2019</i>
+<i>Last Updated: 12/02/2019</i>
