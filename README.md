@@ -69,7 +69,7 @@ If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, 
 $ gdal-config --version
 ```
 
-4. Download the source file (e.g., gdal-1.11.3.tar.gz) of the related GDAL version (e.g., 1.11.3) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+4. Download the source file (e.g., ```gdal-1.11.3.tar.gz```) of the related GDAL version (e.g., 1.11.3) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
 5. Manually install GDAL Python Libraries in Terminal.
 ```bash
