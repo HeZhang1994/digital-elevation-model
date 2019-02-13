@@ -47,7 +47,7 @@ The code has been tested on **Ubuntu 16.04** operating system (OS).
 
 * __GDAL 1.11.3__
 
-The following procedures for installing GDAL are partly reproduced from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+The following procedures for installing GDAL in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
 
 1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
 ```bash
@@ -154,4 +154,4 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 [3] [CSDN Blog](https://blog.csdn.net/liuhailiuhai12/article/details/75007417)
 
-<i>Last Updated: 12/02/2019</i>
+<i>Last Updated: 13/02/2019</i>
