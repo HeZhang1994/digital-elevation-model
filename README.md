@@ -47,7 +47,7 @@ The code has been tested on **Ubuntu 16.04** operating system (OS).
 
 * __GDAL 1.11.3__
 
-The following procedures for installing GDAL in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
+The following procedures for installing GDAL described in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
 
 1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
 ```bash
