@@ -1,6 +1,6 @@
-# Digital Elevation Model Python Tool
+# Python Tool for Digital Elevation Model
 
-This is a **Python** implemented tool for processing, visualising DEM data and reading elevation of given locations.
+This is a **Python** implemented tool for processing, visualizing DEM data and reading elevation of given locations.
 
 ### Important Terms and Abbreviations
 
@@ -25,7 +25,7 @@ This is a **Python** implemented tool for processing, visualising DEM data and r
 
 - **Re-Project** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-- **Visualise** DEM data in different PCSs as 2D images.
+- **Visualize** DEM data in different PCSs as 2D images.
 
 - **Read** elevation of specific locations from different DEM data in different GCSs.
 
