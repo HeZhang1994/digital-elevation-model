@@ -1,6 +1,6 @@
 # Python Tools for Digital Elevation Model
 
-This is a **Python** implementation for transforming, projecting, visualising **DEM** data and getting elevation of given locations.
+This is a **Python** implementation for transforming, projecting, visualising DEM data and getting elevation of given locations.
 
 ### Important Terms and Abbreviations
 
@@ -19,23 +19,23 @@ This is a **Python** implementation for transforming, projecting, visualising **
 
 ### Functions
 
-1. **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-2. **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
+- **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-3. **Re-Projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
+- **Re-Projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-4. **Visualizing** DEM data in different PCSs as 2D images.
+- **Visualizing** DEM data in different PCSs as 2D images.
 
-5. **Obtaining** elevation of specific locations from different DEM data in different GCSs.
+- **Obtaining** elevation of specific locations from different DEM data in different GCSs.
 
 See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details.
 
 ### Limitation
 
-1. Can not visualize 3D land surface.
+- Can not visualize 3D land surface.
 
-### Flow Chart
+### Flow Charts
 
 * **Step 1** Pre-processing of ASTGDEMv2 data: Removing overlapped elements and merge data arrays of different tiles.
 
