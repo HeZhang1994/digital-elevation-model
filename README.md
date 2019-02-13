@@ -1,6 +1,6 @@
 # Digital Elevation Model Python Tool
 
-This is a **Python** implementation for transforming, projecting, visualising DEM data and reading elevation of given locations.
+This is a **Python** implemented tool for processing, visualising DEM data and reading elevation of given locations.
 
 ### Important Terms and Abbreviations
 
@@ -59,7 +59,7 @@ The code has been tested on **Ubuntu 16.04** operating system (OS).
 
 The following procedures for installing GDAL are partly reproduced from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
-1. Install GDAL Development Libraries and export environment variables for the compiler.
+1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
 ```bash
 $ sudo apt-get install libgdal-dev
 
@@ -67,21 +67,21 @@ $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
-2. Install GDAL Python Libraries.
+2. Install GDAL Python Libraries in Terminal.
 ```bash
 $ pip install GDAL
 ```
 
-If it comes with the error: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
+If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
 
-3. Check the required/installed version of GDAL Python Libraries on Ubuntu OS.
+3. Check the required/installed version of GDAL Python Libraries in Terminal.
 ```bash
 $ gdal-config --version
 ```
 
 4. Download the source file (e.g., gdal-1.11.3.tar.gz) of the related GDAL version (e.g., 1.11.3) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
-5. Manually install GDAL Python Libraries:
+5. Manually install GDAL Python Libraries in Terminal.
 ```bash
 $ cd path/of/downloaded/gdal/package
 
@@ -99,9 +99,9 @@ $ python setup.py build_ext --include-dirs=/usr/include/gdal/
 $ python setup.py install
 ```
 
-6. Try ```>>> from osgeo import gdal``` in python. If no error occurs, the installation is completed.
+6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
 
-## Data
+## DEM Data in London
 
 **ASTGDEMv2.0 data**
 
@@ -115,7 +115,7 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Usage
 
-To get view and get the elevation in London: 
+To view and read the elevation in London: 
 
 - Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 - Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
