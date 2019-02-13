@@ -37,11 +37,11 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 
 ### Flow Charts
 
-* **Step 1** Pre-processing of ASTGDEMv2 data: Removing overlapped elements and merge data arrays of different tiles.
+* **Step 1** Pre-processing of ASTGDEM-v2.0 data: Remove overlapped elements and merge data arrays in different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* **Step 2** Processing of ASTGDEMv2 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+* **Step 2** Processing of ASTGDEM-v2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
