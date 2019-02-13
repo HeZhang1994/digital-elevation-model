@@ -35,16 +35,6 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 
 - Can not visualize 3D land surface.
 
-### Flow Charts of Processing ASTGDEMv2.0
-
-1. Pre-processing of ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
-
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
-
-2. Processing of ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
-
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
-
 ## Environment
 
 The code has been tested on **Ubuntu 16.04** operating system (OS).
@@ -112,6 +102,16 @@ See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-E
 - **EUDEMv1.1 data**
 
 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+
+## Flow Charts of Processing ASTGDEMv2.0
+
+1. Pre-processing of ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
+
+2. Processing of ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+
+![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
 ## Usage
 
