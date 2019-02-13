@@ -1,6 +1,6 @@
 # Python Tools for Digital Elevation Model
 
-This is a **Python** implementation for transforming, projecting, visualising DEM data and getting elevation of given locations.
+This is a **Python** implementation for transforming, projecting, visualising DEM data and reading elevation of given locations.
 
 ### Important Terms and Abbreviations
 
@@ -19,17 +19,17 @@ This is a **Python** implementation for transforming, projecting, visualising DE
 
 ### Functions
 
-- **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **Transform** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-- **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
+- **Project** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-- **Re-Projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
+- **Re-Project** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-- **Visualizing** DEM data in different PCSs as 2D images.
+- **Visualise** DEM data in different PCSs as 2D images.
 
-- **Obtaining** elevation of specific locations from different DEM data in different GCSs.
+- **Read** elevation of specific locations from different DEM data in different GCSs.
 
-See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details.
+See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details (strongly recommended for tyro).
 
 ### Limitation
 
@@ -37,21 +37,21 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 
 ### Flow Charts
 
-* **Step 1** Pre-processing of ASTGDEM-v2.0 data: Remove overlapped elements and merge data arrays in different tiles.
+* **Step 1** Pre-processing of ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-* **Step 2** Processing of ASTGDEM-v2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+* **Step 2** Processing of ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
 ## Environment
 
-This code has been tested on **Ubuntu 16.04** operating system.
+The code has been tested on **Ubuntu 16.04** operating system.
 
 ## Language
 
-* __Python 3.7 (3.0+ Kernel for Jupyter Notebook)__
+* __Python 3.7 (Python 3 Kernel for Jupyter Notebook)__
 
 ## Dependency
 
