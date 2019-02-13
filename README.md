@@ -1,4 +1,4 @@
-# Python for Digital Elevation Model
+# Digital Elevation Model Python Tool
 
 This is a **Python** implementation for transforming, projecting, visualising DEM data and reading elevation of given locations.
 
@@ -47,7 +47,7 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 
 ## Environment
 
-The code has been tested on **Ubuntu 16.04** operating system.
+The code has been tested on **Ubuntu 16.04** operating system (OS).
 
 ## Language
 
@@ -57,7 +57,9 @@ The code has been tested on **Ubuntu 16.04** operating system.
 
 * __GDAL 1.11.3__
 
-1. Install GDAL development libraries and export environment variables for the compiler:
+The following procedures for installing GDAL are partly reproduced from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+
+1. Install GDAL Development Libraries and export environment variables for the compiler.
 ```bash
 $ sudo apt-get install libgdal-dev
 
@@ -65,19 +67,19 @@ $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
-2. Install GDAL Python Libraries:
+2. Install GDAL Python Libraries.
 ```bash
 $ pip install GDAL
 ```
 
 If it comes with the error: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
 
-3. Check the required/installed version of GDAL Python Libraries on Ubuntu operating system:
+3. Check the required/installed version of GDAL Python Libraries on Ubuntu OS.
 ```bash
 $ gdal-config --version
 ```
 
-4. Download the source file (e.g., gdal-1.11.3.tar.gz) of related GDAL version (e.g., 1.11.3) from [GDAL website](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+4. Download the source file (e.g., gdal-1.11.3.tar.gz) of the related GDAL version (e.g., 1.11.3) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
 5. Manually install GDAL Python Libraries:
 ```bash
