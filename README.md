@@ -1,6 +1,6 @@
 # Python Tool for Digital Elevation Models
 
-This is a **Python** implementation for processing Digital Elevation Models (DEMs) and getting elevation of given locations.
+This is a **Python** implementation for transforming, projecting, and visualising **Digital Elevation Models (DEMs)** as well as getting elevation of given locations.
 
 ### Important Terms and Abbreviations
 
