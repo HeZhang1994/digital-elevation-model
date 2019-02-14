@@ -75,18 +75,18 @@ $ gdal-config --version
 ```bash
 $ cd path/of/downloaded/gdal/package
 
-$ tar -xvzf gdal-version.tar.gz
+~$ tar -xvzf gdal-version.tar.gz
 # E.g., tar -xvzf gdal-1.11.3.tar.gz
 
-$ cd extracted/gdal/folder
+~$ cd extracted/gdal/folder
 # E.g., cd gdal-1.11.3
 
-$ cd swig
-$ cd python
+~$ cd swig
+~$ cd python
 # The setup.py exists in this directory.
 
-$ python setup.py build_ext --include-dirs=/usr/include/gdal/
-$ python setup.py install
+~$ python setup.py build_ext --include-dirs=/usr/include/gdal/
+~$ python setup.py install
 ```
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
