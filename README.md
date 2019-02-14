@@ -1,6 +1,6 @@
-# Python Tool for Digital Elevation Model
+# Python Tool for Digital Elevation Models
 
-This is a **Python** implemented tool for processing, visualizing DEM data (ASTGDEMv2.0 and EUDEMv1.1) and reading elevation of given locations.
+This is a **Python** implementation for processing DEMs (ASTGDEMv2.0 and EUDEMv1.1) and reading elevation of given locations.
 
 ### Important Terms and Abbreviations
 
