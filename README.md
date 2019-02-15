@@ -1,6 +1,6 @@
 # Python Tool for Digital Elevation Models
 
-This is a **Python** implementation for transforming, projecting, and visualising **Digital Elevation Models (DEMs)** (e.g., ASTGDEMv2.0 30m and EUDEMv1.1 30m) as well as getting elevation of given locations.
+This is a **Python** implementation for transforming, projecting, and visualising **Digital Elevation Models (DEMs)** (e.g., ASTGDEMv2.0 30m and EUDEMv1.1 25m) as well as getting elevation of given locations.
 
 ### Important Terms and Abbreviations
 
