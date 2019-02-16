@@ -1,5 +1,9 @@
 # Python Tool for Digital Elevation Models
 
+[![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/HeZhang1994/digital-elevation-model-tool-tutorial/blob/master/LICENSE)
+[![image](https://img.shields.io/badge/platform-ubuntu%2016.04-lightgrey.svg)]()
+[![image](https://img.shields.io/badge/language-python%203.7-blue.svg)]()
+
 This is a **Python** implementation for transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., ASTGDEMv2.0 30m and EUDEMv1.1 25m) as well as reading elevation of given locations.
 
 ### Important Terms and Abbreviations
@@ -34,14 +38,6 @@ See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/b
 ### Limitation
 
 - Can not visualize 3D land surface.
-
-## Environment
-
-The code has been tested on **Ubuntu 16.04** operating system (OS).
-
-## Language
-
-* __Python 3.7 (Python 3 Kernel for Jupyter Notebook)__
 
 ## Dependency
 
