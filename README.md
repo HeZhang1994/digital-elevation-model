@@ -87,25 +87,25 @@ $ cd path/of/downloaded/gdal/package
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
 
-## DEM Data in London
+## Data
 
-- **ASTGDEMv2.0 data**
+- **ASTGDEMv2.0**
 
 Download Link: https://earthexplorer.usgs.gov/
 
 See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
 
-- **EUDEMv1.1 data**
+- **EUDEMv1.1**
 
 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Flow Charts of Processing ASTGDEMv2.0
 
-1. Pre-processing of ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
+1. Pre-processing ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-2. Processing of ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and obtaining elevation values.
+2. Processing ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and reading elevation values.
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
