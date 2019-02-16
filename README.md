@@ -35,10 +35,6 @@ This is a **Python** implementation for transforming, projecting, and visualizin
 
 See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details (strongly recommended for tyro).
 
-### Limitation
-
-- Can not visualize 3D land surface.
-
 ## Dependency
 
 * __GDAL 1.11.3__
