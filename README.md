@@ -6,7 +6,7 @@
 
 This is a **Python** implementation for transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., ASTGDEMv2.0 30m and EUDEMv1.1 25m) as well as reading elevation of given locations.
 
-### Important Terms and Abbreviations
+## Important Terms and Abbreviations
 
 | Term                                       | Abbreviation | Remark 
 | ------------------------------------------ | ------------ | ------ 
@@ -21,7 +21,7 @@ This is a **Python** implementation for transforming, projecting, and visualizin
 | British National Grid                      | BNG          | PCS of OSGB-36, EPSG-27700 
 | 1989 European Terrestrial Reference System | ETRS-89      | GCS, EPSG-4258, approx. the ellipsoid of Europe 
 
-### Functions
+## Functions
 
 - **Transform** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
