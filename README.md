@@ -83,7 +83,7 @@ $ cd path/of/downloaded/gdal/package
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
 
-## Data
+## DEM Data
 
 - **ASTGDEMv2.0**
 
@@ -120,11 +120,11 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 ## Results
 
-### 2D DEM image of London in Web Mercator PCS (EPSG-3857)
+### London DEM in Web Mercator PCS (EPSG-3857)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-### 2D DEM image of London in BNG PCS (EPSG-27700)
+### London DEM in BNG PCS (EPSG-27700)
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
