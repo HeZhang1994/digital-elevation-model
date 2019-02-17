@@ -3,6 +3,8 @@
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
+[![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
+[![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
 This is a **Python** implementation for transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., ASTGDEMv2.0 30m and EUDEMv1.1 25m) as well as reading elevation of given locations.
 
@@ -152,5 +154,5 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 16/02/2019</i>
+<i>Last updated: 17/02/2019</i>
 
