@@ -132,7 +132,7 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 - **Elevation of 5 Locations in London**
 
-| No. | Latitude | Longitude | Elevation in WGS-84 (m) | Elevation in OSGB-36 (m) | Elevation in Google Earth (m) 
+| No. | Latitude | Longitude | Elev. in WGS-84 (m)     | Elev. in OSGB-36 (m)     | Elev. in Google Earth (m) 
 | --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
 | 1   | 51.52104 | -0.21349  | 31 (+7)                 | 22 (-1)                  | 23 
 | 2   | 51.52770 | -0.12905  | 40 (+0)                 | 25 (-15)                 | 40 (Building/Road) 
