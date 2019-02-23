@@ -37,6 +37,18 @@ This is a **Python** implementation for transforming, projecting, and visualizin
 
 See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details (strongly recommended for tyro).
 
+## DEM Data
+
+- **ASTGDEMv2.0**
+
+Download Link: https://earthexplorer.usgs.gov/
+
+See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
+
+- **EUDEMv1.1**
+
+Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+
 ## Dependency
 
 * __GDAL 1.11.3__
@@ -85,27 +97,11 @@ $ cd path/of/downloaded/gdal/package
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
 
-## DEM Data
+## Flow Chart of Processing London DEM (ASTGDEMv2.0)
 
-- **ASTGDEMv2.0**
+Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
-Download Link: https://earthexplorer.usgs.gov/
-
-See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
-
-- **EUDEMv1.1**
-
-Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
-
-## Flow Charts of Processing London DEM (ASTGDEMv2.0)
-
-1. Pre-processing ASTGDEMv2.0 data: Remove overlapped elements and merge data arrays in different tiles.
-
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
-
-2. Processing ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and reading elevation values. Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
-
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
+![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEM_Process.png)
 
 ## Usage
 
