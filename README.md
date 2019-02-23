@@ -107,7 +107,7 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
 
-*Pictures are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
+Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 ## Usage
 
