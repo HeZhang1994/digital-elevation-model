@@ -103,11 +103,9 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step1.png)
 
-2. Processing ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and reading elevation values.
+2. Processing ASTGDEMv2.0 data: Transforming, projecting, visualizing DEM data and reading elevation values. Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/DEM_Tool_Step2.png)
-
-Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 ## Usage
 
