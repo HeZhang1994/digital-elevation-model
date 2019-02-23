@@ -122,15 +122,15 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 ## Results
 
-### London DEM in Web Mercator PCS (EPSG-3857)
+- **London DEM in Web Mercator PCS (EPSG-3857)**
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-### London DEM in BNG PCS (EPSG-27700)
+- **London DEM in BNG PCS (EPSG-27700)**
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
-### Elevation of 5 Locations in London
+- **Elevation of 5 Locations in London**
 
 | No. | Latitude | Longitude | Elevation in WGS-84 (m) | Elevation in OSGB-36 (m) | Elevation in Google Earth (m) 
 | --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
