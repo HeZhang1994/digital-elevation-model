@@ -37,7 +37,7 @@ This is a **Python** implementation for transforming, projecting, and visualizin
 
 See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details (strongly recommended for tyro).
 
-## DEM Data
+## Datasets
 
 - **ASTGDEMv2.0**
 
@@ -150,5 +150,5 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 23/02/2019</i>
+<i>Last updated: 24/02/2019</i>
 
