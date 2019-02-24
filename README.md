@@ -97,9 +97,9 @@ $ cd path/of/downloaded/gdal/package
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
 
-## Flow Chart of Processing London DEM (ASTGDEMv2.0)
+## Pipeline
 
-Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
+Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 ![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEM_Process.png)
 
