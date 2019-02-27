@@ -63,7 +63,6 @@ def get_FileName(file_path, file_type):
     
     return file_names
 
-
 def get_TifInfo(dem_data, tag_print):
     dem_row = dem_data.RasterYSize  # Height.
     dem_col = dem_data.RasterXSize  # Width.
@@ -81,7 +80,6 @@ def get_TifInfo(dem_data, tag_print):
         print(dem_proj)
     
     return dem_row, dem_col, dem_band, dem_geotran, dem_proj
-
 
 def write_TIF(dem_array, dem_row, dem_col, dem_band, dem_geotran, dem_proj, path):
     data_type = gdal.GDT_UInt16
@@ -103,7 +101,6 @@ def write_TIF(dem_array, dem_row, dem_col, dem_band, dem_geotran, dem_proj, path
     del dataset
     
     return 0
-
 
 def show_ProjDEM(file_path, file_name, img_path, img_name):
     gdal_data = gdal.Open(file_path + file_name)
@@ -127,7 +124,6 @@ def show_ProjDEM(file_path, file_name, img_path, img_name):
     fig.savefig(save_path + img_name + '.png')
     
     return 0
-
 
 def get_Elevation(gcs_data, site_latlog):
     gt = gcs_data.GetGeoTransform()
@@ -462,6 +458,8 @@ print('\n')
 print(site_ele_etrs[:, 5].astype(int))
 print('\n')
 
+
+## Print final results of elevation.
 
 print(site_ele_wgs[:, 5].astype(int))
 print('\n')
