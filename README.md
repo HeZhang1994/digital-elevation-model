@@ -6,7 +6,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., **ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations.
+This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (**ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations.
 
 ## Important Terms and Abbreviations
 
@@ -25,19 +25,19 @@ This is a **Python** implementation of transforming, projecting, and visualizing
 
 ## Functions
 
-- **Transform** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-- **Project** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
+- **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-- **Re-Project** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
+- **Re-projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-- **Visualize** DEM data in different PCSs as 2D images.
+- **Visualizing** DEM data in different PCSs as 2D images.
 
-- **Read** elevation of specific locations from different DEM data in different GCSs.
+- **Reading** elevation of specific locations from different DEM data in different GCSs.
 
-See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more important details (strongly recommended for tyro).
+See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more details (strongly recommended for tyro).
 
-## Datasets
+## DEM Datasets
 
 - **ASTGDEMv2.0**
 
@@ -53,7 +53,7 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 * __GDAL 1.11.3__
 
-The following procedures for installing GDAL described in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
+The following procedures for installing **GDAL** described in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
 
 1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
 ```bash
