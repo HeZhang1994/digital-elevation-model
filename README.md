@@ -1,4 +1,4 @@
-# Python Tool and Tutorial for Digital Elevation Models
+# Python Tool and Tutorial for Digital Elevation Model
 
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
@@ -6,7 +6,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., **ASTGDEMv2.0** 30m and **EUDEMv1.1** 25m) as well as reading elevation of given locations.
+This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (e.g., **ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations.
 
 ## Important Terms and Abbreviations
 
