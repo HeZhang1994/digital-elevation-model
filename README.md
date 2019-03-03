@@ -49,11 +49,16 @@ See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-E
 
 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
-## Dependency
+## Dependencies
 
-* __GDAL 1.11.3__
+* __shutil 1.0.0__
+* __osgeo 1.11.3__
+* __gdal 1.11.3__
+* __numpy 1.15.4__
+* __matplotlib 3.0.2__
+* __pandas 0.23.4__
 
-The following procedures for installing **GDAL** described in [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html) are partly recapitulated here.
+The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
 1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
 ```bash
@@ -68,7 +73,7 @@ $ export C_INCLUDE_PATH=/usr/include/gdal
 $ pip install GDAL
 ```
 
-If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, try the following installation procedures.
+If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, try the following procedures.
 
 3. Check the required/installed version of GDAL Python Libraries in Terminal.
 ```bash
@@ -95,7 +100,7 @@ $ cd path/of/downloaded/gdal/package
 ~$ python setup.py install
 ```
 
-6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is successfully completed.
+6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is completed.
 
 ## Pipeline
 
@@ -114,7 +119,7 @@ To view and read the elevation in London:
 - Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
 - Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
-Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for details).
+Then, run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
 ## Results
 
@@ -150,5 +155,5 @@ Then, run Python code in ```run_ASTGDEMv2.ipynb``` (see code comments for detail
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 27/02/2019</i>
+<i>Last updated: 03/03/2019</i>
 
