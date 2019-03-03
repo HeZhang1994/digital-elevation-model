@@ -51,8 +51,8 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Dependencies
 
-* __shutil 1.0.0__
-* __osgeo 1.11.3__
+* __shutil__ 1.0.0
+* __osgeo__ 1.11.3
 * __gdal 1.11.3__
 * __numpy 1.15.4__
 * __matplotlib 3.0.2__
