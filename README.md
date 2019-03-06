@@ -1,4 +1,4 @@
-# Python Tool and Tutorial for Digital Elevation Model
+# Python for Digital Elevation Models
 
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
@@ -155,5 +155,5 @@ Then, run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code co
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 03/03/2019</i>
+<i>Last updated: 06/03/2019</i>
 
