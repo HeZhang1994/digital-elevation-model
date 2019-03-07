@@ -121,6 +121,8 @@ To view and read the elevation in London:
 
 Then, run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
+See [run_PyDEM_London_log.txt](https://github.com/HeZhang1994/digital-elevation-model/blob/master/run_PyDEM_London_log.txt) for running results and log.
+
 ## Results
 
 - **London DEM in Web Mercator PCS (EPSG-3857)**
@@ -155,5 +157,5 @@ Then, run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code co
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 06/03/2019</i>
+<i>Last updated: 07/03/2019</i>
 
