@@ -114,17 +114,17 @@ To view and read the elevation in London:
 
 1. Prepare ASTGDEMv2.0 data.
 
-> Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
+>> Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
-> Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
+>> Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
 2. Prepare EUDEMv1.1 data.
 
-> Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
+>> Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
 
-> Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
+>> Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
 
-> Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
+>> Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
 3. Run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
