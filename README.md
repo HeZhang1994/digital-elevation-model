@@ -104,7 +104,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## Pipeline
 
-Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are copied from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
+Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 ![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEM_Process.png)
 
@@ -112,16 +112,23 @@ Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are copied 
 
 To view and read the elevation in London: 
 
-- Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
-- Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
+1.0 Prepare ASTGDEMv2.0 data.
 
-- Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
-- Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
-- Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
+1.1 Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
-Then, run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
+1.2 Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
-See running results and log in [run_PyDEM_London_log.txt](https://github.com/HeZhang1994/digital-elevation-model/blob/master/run_PyDEM_London_log.txt).
+2.0 Prepare EUDEMv1.1 data.
+
+2.1 Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
+
+2.2 Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
+
+2.3 Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
+
+3.0 Run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
+
+4.0 See running results and log in [run_PyDEM_London_log.txt](https://github.com/HeZhang1994/digital-elevation-model/blob/master/run_PyDEM_London_log.txt).
 
 ## Results
 
