@@ -128,7 +128,7 @@ To view and read the elevation in London:
 
 The directory of DEM data files is shown in the following figure.
 
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="300">
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="350">
 
 3. Run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
