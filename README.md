@@ -106,7 +106,7 @@ $ cd path/of/downloaded/gdal/package
 
 Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
-![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv2_Process_Pipeline.png)
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv2_Process_Pipeline.png" width="700" height="700">
 
 ## Usage
 
@@ -126,7 +126,7 @@ To view and read the elevation in London:
 
    3. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
-![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_DataFile_Structure.png)
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_DataFile_Structure.png" width="400" height="400">
 
 3. Run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
@@ -166,5 +166,5 @@ To view and read the elevation in London:
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 12/03/2019</i>
+<i>Last updated: 14/03/2019</i>
 
