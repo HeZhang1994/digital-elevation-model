@@ -35,8 +35,6 @@ This is a **Python** implementation of transforming, projecting, and visualizing
 
 - **Reading** elevation of specific locations from different DEM data in different GCSs.
 
-See [RTM.txt](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/RTM.txt) for more details (strongly recommended for tyro).
-
 ## DEM Datasets
 
 - **ASTGDEMv2.0**
@@ -168,5 +166,5 @@ The directory of DEM data files is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 14/03/2019</i>
+<i>Last updated: 15/03/2019</i>
 
