@@ -106,7 +106,7 @@ Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloa
 
 ## Usage
 
-To visualize and read the elevation in London: 
+To visualize and read the elevation in London:
 
 1. Prepare ASTGDEMv2.0 DEMs.
 
