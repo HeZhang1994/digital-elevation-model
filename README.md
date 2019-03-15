@@ -1,4 +1,4 @@
-# Python for Digital Elevation Models
+# Python for Digital Elevation Models (DEMs)
 
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
@@ -25,17 +25,17 @@ This is a **Python** implementation of transforming, projecting, and visualizing
 
 ## Functions
 
-- **Transforming** DEM data from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **Transforming** DEM from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-- **Projecting** DEM data from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
+- **Projecting** DEM from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Web Mercator/BNG).
 
-- **Re-projecting** DEM data from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
+- **Re-projecting** DEM from PCS (e.g., ETRS-LAEA) to the related GCS (e.g., ETRS-89).
 
-- **Visualizing** DEM data in different PCSs as 2D images.
+- **Visualizing** DEMs in different PCSs as 2D images.
 
-- **Reading** elevation of specific locations from different DEM data in different GCSs.
+- **Reading** elevation of specific locations from different DEMs in different GCSs.
 
-## DEM Datasets
+## DEMs
 
 - **ASTGDEMv2.0**
 
@@ -49,11 +49,9 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Dependencies
 
-* __shutil 1.0.0__
-* __osgeo 1.11.3__
-* __gdal 1.11.3__
-* __numpy 1.15.4__
 * __matplotlib 3.0.2__
+* __numpy 1.15.4__
+* __osgeo 1.11.3__
 * __pandas 0.23.4__
 
 The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
@@ -108,23 +106,23 @@ Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloa
 
 ## Usage
 
-To view and read the elevation in London: 
+To visualize and read the elevation in London: 
 
-1. Prepare ASTGDEMv2.0 data.
+1. Prepare ASTGDEMv2.0 DEMs.
 
-   1. Download ASTGDEMv2.0 data ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
+   1. Download ASTGDEMv2.0 DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
-   2. Copy ASTGDEMv2.0 data files to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
+   2. Copy ASTGDEMv2.0 DEMS to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
-2. Prepare EUDEMv1.1 data.
+2. Prepare EUDEMv1.1 DEM.
 
-   1. Download EUDEMv1.1 data ```eu_dem_v11_E30N30.tif```.
+   1. Download EUDEMv1.1 DEM ```eu_dem_v11_E30N30.tif```.
 
-   2. Copy EUDEMv1.1 data file to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
+   2. Copy EUDEMv1.1 DEM to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
 
    3. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
-The directory of DEM data files is shown in the following figure.
+The directory of DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="350">
 
@@ -134,11 +132,11 @@ The directory of DEM data files is shown in the following figure.
 
 ## Results
 
-- **London DEM in Web Mercator PCS (EPSG-3857)**
+- **London DEM (ASTGDEMv2.0) in Web Mercator PCS [EPSG-3857]**
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
 
-- **London DEM in BNG PCS (EPSG-27700)**
+- **London DEM (ASTGDEMv2.0) in BNG PCS [EPSG-27700]**
 
 ![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
 
