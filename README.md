@@ -6,7 +6,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (**ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations.
+This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (**ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations in London.
 
 ## Important Terms and Abbreviations
 
@@ -100,7 +100,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## Pipeline
 
-Flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
+The flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv2_Process_Pipeline.png" height="700">
 
@@ -128,17 +128,15 @@ The directory of DEMs is shown in the following figure.
 
 3. Run ```run_PyDEM_London.py``` or ```run_PyDEM_London.ipynb``` (see code comments for details).
 
-4. See running results and log in [run_PyDEM_London_log.txt](https://github.com/HeZhang1994/digital-elevation-model/blob/master/run_PyDEM_London_log.txt).
-
 ## Results
 
 - **London DEM (ASTGDEMv2.0) in Web Mercator PCS [EPSG-3857]**
 
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG3857.png)
+![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG3857.png)
 
 - **London DEM (ASTGDEMv2.0) in BNG PCS [EPSG-27700]**
 
-![](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/images/LD_EPSG27700.png)
+![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG27700.png)
 
 - **Elevation of 5 Locations in London**
 
