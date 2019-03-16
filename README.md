@@ -35,15 +35,15 @@ This is a **Python** implementation of transforming, projecting, and visualizing
 
 - **Reading** elevation of specific locations from different DEMs in different GCSs.
 
-## DEMs
+## Data
 
-- **ASTGDEMv2.0**
+- **ASTER-GDEMv2.0**
 
 Download Link: https://earthexplorer.usgs.gov/
 
 See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/DEM-Digital-Elevation-Model-Tools/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for details (highly recommended for tyro).
 
-- **EUDEMv1.1**
+- **EU-DEMv1.1**
 
 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
@@ -108,17 +108,17 @@ The flow chart of processing London DEM (ASTGDEMv2.0). Pictures of Earth are dow
 
 To visualize and read the elevation in London:
 
-1. Prepare ASTGDEMv2.0 DEMs.
+1. Prepare ASTER-GDEMv2.0 DEMs.
 
-   1. Download ASTGDEMv2.0 DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
+   1. Download ASTER-GDEMv2.0 DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
-   2. Copy ASTGDEMv2.0 DEMS to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
+   2. Copy ASTER-GDEMv2.0 DEMS to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
-2. Prepare EUDEMv1.1 DEM.
+2. Prepare EU-DEMv1.1 DEM.
 
-   1. Download EUDEMv1.1 DEM ```eu_dem_v11_E30N30.tif```.
+   1. Download EU-DEMv1.1 DEM ```eu_dem_v11_E30N30.tif```.
 
-   2. Copy EUDEMv1.1 DEM to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
+   2. Copy EU-DEMv1.1 DEM to ```DATA/DATA_EUDEMv11/EPSG3035_s/``` folder.
 
    3. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
@@ -130,11 +130,11 @@ The directory of DEMs is shown in the following figure.
 
 ## Results
 
-- **London DEM (ASTGDEMv2.0) in Web Mercator PCS [EPSG-3857]**
+- **London DEM (ASTER-GDEMv2.0) in Web Mercator PCS [EPSG-3857]**
 
 ![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG3857.png)
 
-- **London DEM (ASTGDEMv2.0) in BNG PCS [EPSG-27700]**
+- **London DEM (ASTER-GDEMv2.0) in BNG PCS [EPSG-27700]**
 
 ![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG27700.png)
 
@@ -162,5 +162,5 @@ The directory of DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 15/03/2019</i>
+<i>Last updated: 16/03/2019</i>
 
