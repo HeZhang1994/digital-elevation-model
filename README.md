@@ -122,7 +122,7 @@ To visualize and read the elevation in London:
 
    3. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
-The directory of DEMs is shown in the following figure.
+The initial directory of DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="350">
 
