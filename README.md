@@ -51,7 +51,7 @@ Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 * __matplotlib 3.0.2__
 * __numpy 1.15.4__
-* __osgeo 1.11.3__
+* __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
 The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
