@@ -8,7 +8,7 @@
 
 This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (**ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations in London.
 
-## Important Terms and Abbreviations
+## Terms and Abbreviations
 
 | Term                                       | Abbreviation | Remark 
 | ------------------------------------------ | ------------ | ------ 
@@ -100,7 +100,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## Pipeline
 
-The flow chart of processing London DEM (ASTER-GDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
+The pipeline of processing London DEM (ASTER-GDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="550">
 
