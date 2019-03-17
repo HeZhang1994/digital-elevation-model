@@ -102,7 +102,7 @@ $ cd path/of/downloaded/gdal/package
 
 The flow chart of processing London DEM (ASTER-GDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="600">
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="500">
 
 ## Usage
 
@@ -137,6 +137,10 @@ The initial directory of DEMs is shown in the following figure.
 - **London DEM (ASTER-GDEMv2.0) in BNG PCS [EPSG-27700]**
 
 ![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG27700.png)
+
+- **London DEM (ASTER-GDEMv2.0) in ETRS-LAEA PCS [EPSG-3035]**
+
+![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/)
 
 - **Elevation of 5 Locations in London**
 
