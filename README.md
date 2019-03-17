@@ -35,7 +35,7 @@ This is a **Python** implementation of transforming, projecting, and visualizing
 
 - **Reading** elevation of specific locations from different DEMs in different GCSs.
 
-## Data
+## DEM Data
 
 - **ASTER-GDEMv2.0**
 
@@ -71,7 +71,7 @@ $ pip install GDAL
 
 If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, try the following procedures.
 
-3. Check the required/installed version of GDAL Python Libraries in Terminal.
+3. Check the required version of GDAL Python Libraries in Terminal.
 ```bash
 $ gdal-config --version
 ```
