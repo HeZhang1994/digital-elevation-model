@@ -130,17 +130,11 @@ The initial directory of DEMs is shown in the following figure.
 
 ## Results
 
+<!--
 - **London DEM (ASTER-GDEMv2.0) in Web Mercator PCS [EPSG-3857]**
-
-![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG3857.png)
-
 - **London DEM (ASTER-GDEMv2.0) in BNG PCS [EPSG-27700]**
-
-![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_EPSG27700.png)
-
 - **London DEM (ASTER-GDEMv2.0) in ETRS-LAEA PCS [EPSG-3035]**
-
-![](https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/)
+-->
 
 - **Elevation of 5 Locations in London**
 
