@@ -82,11 +82,11 @@ $ gdal-config --version
 ```bash
 $ cd path/of/downloaded/gdal/package
 
-~$ tar -xvzf gdal-version.tar.gz
-# E.g., tar -xvzf gdal-1.11.3.tar.gz
+~$ tar -xvzf gdal-{VERSION}.tar.gz
+# E.g., ~$ tar -xvzf gdal-1.11.3.tar.gz
 
 ~$ cd extracted/gdal/folder
-# E.g., cd gdal-1.11.3
+# E.g., ~$ cd gdal-1.11.3
 
 ~$ cd swig
 ~$ cd python
