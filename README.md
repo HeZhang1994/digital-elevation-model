@@ -102,7 +102,7 @@ $ cd path/of/downloaded/gdal/package
 
 The flow chart of processing London DEM (ASTER-GDEMv2.0). Pictures of Earth are downloaded from [ThoughtCo.](https://www.thoughtco.com/degree-of-latitude-and-longitude-distance-4070616) and [Google Earth](https://earth.google.com/web/).
 
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv2_Process_Pipeline.png" height="700">
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="700">
 
 ## Usage
 
