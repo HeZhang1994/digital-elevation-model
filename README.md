@@ -6,6 +6,8 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
+**Note: This code will be updated before 2019.03.19. A more complete version will be released! :-)
+
 This is a **Python** implementation of transforming, projecting, and visualizing **Digital Elevation Models (DEMs)** (**ASTER-GDEMv2.0** ~30m and **EU-DEMv1.1** ~25m) as well as reading elevation of given locations in London.
 
 ## Terms and Abbreviations
