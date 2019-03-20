@@ -38,13 +38,13 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 ## DEM Data
 
-- **ASTERGDEMv2.0**
+### ASTERGDEMv2.0
 
 Download Link: https://earthexplorer.usgs.gov/
 
 See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed user guide (recommended).
 
-- **EUDEMv1.1**
+### EUDEMv1.1
 
 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
@@ -111,13 +111,13 @@ The directory of source DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="350">
 
-1. Prepare source **ASTERGDEMv2.0** DEMs.
+1. Prepare **ASTERGDEMv2.0** source DEMs.
 
    1. Download DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
    2. Copy DEMs to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
-2. Prepare source **EUDEMv1.1** DEM.
+2. Prepare **EUDEMv1.1** source DEM.
 
    1. Download DEM ```eu_dem_v11_E30N30.tif```.
 
