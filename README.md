@@ -160,7 +160,7 @@ The directory of source DEMs is shown in the following figure.
 | 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
 -->
 
-## References (Highly Recommended for Tyro)
+## References
 
 [1] [EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)](http://lyzidiamond.com/posts/4326-vs-3857)
 
