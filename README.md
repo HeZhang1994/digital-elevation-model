@@ -6,7 +6,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models (DEMs)** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading elevation of given locations in London.
+This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading elevation of given locations.
 
 ## Terms and Abbreviations
 
