@@ -13,7 +13,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 | Term                                       | Abbreviation | Remark 
 | ------------------------------------------ | ------------ | ------ 
 | Digital Elevation Model                    | DEM          | - 
-| Geographic Coordinate System               | GCS          | [Lng, Lat, Elevation] on 3D ellipsoid 
+| Geographic Coordinate System               | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
 | Projected Coordinate System                | PCS          | [X-coor, Y-coor, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | Data Format of DEM (e.g., .tif) 
 | European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
