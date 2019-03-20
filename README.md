@@ -14,23 +14,23 @@ This is a **Python** implementation of transforming, projecting, converting and 
 | ------------------------------------------ | ------------ | ------ 
 | Digital Elevation Model                    | DEM          | - 
 | Geographic Coordinate System               | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
-| Projected Coordinate System                | PCS          | [X-axis, Y-axis, Elevation] on 2D plane 
-| Georeferenced Tagged Image File Format     | GeoTIFF      | DEM image/data format (.tif) 
+| Projected Coordinate System                | PCS          | [X-coor, Y-coor, Elevation] on 2D plane 
+| Georeferenced Tagged Image File Format     | GeoTIFF      | Data Format of DEM (e.g., .tif) 
 | European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
-| 1984 World Geodetic System                 | WGS-84       | GCS, EPSG-4326, approx. the ellipsoid of Earth 
-| Pseudo Mercator (Web Mercator)             | -            | PCS of WGS-84, EPSG-3857 
-| 1936 Ordnance Survey Great Britain         | OSGB-36      | GCS, EPSG-4277, approx. the ellipsoid of Britain 
-| British National Grid                      | BNG          | PCS of OSGB-36, EPSG-27700 
-| 1989 European Terrestrial Reference System | ETRS-89      | GCS, EPSG-4258, approx. the ellipsoid of Europe 
-| Lambert Azimuthal Equal-Area               | LAEA         | PCS of ETRS-89, EPSG-3035 
+| 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, approx. the ellipsoid of Earth 
+| Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
+| 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, approx. the ellipsoid of Britain 
+| British National Grid                      | BNG          | **PCS** of OSGB-36, *EPSG-27700* 
+| 1989 European Terrestrial Reference System | ETRS-89      | **GCS**, *EPSG-4258*, approx. the ellipsoid of Europe 
+| Lambert Azimuthal Equal-Area               | LAEA         | **PCS** of ETRS-89, *EPSG-3035* 
 
 ## Functions
 
-- **Transforming** DEM from GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **Transforming** DEM from one GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
 
-- **Projecting** DEM from GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Pseudo Mercator/BNG).
+- **Projecting** DEM from one GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Pseudo Mercator/BNG).
 
-- **Converting** DEM from PCS (e.g., LAEA) to the related GCS (e.g., ETRS-89).
+- **Converting** DEM from one PCS (e.g., LAEA) to the related GCS (e.g., ETRS-89).
 
 - **Visualizing** DEM in PCS as a 2D image.
 
@@ -101,7 +101,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## Pipeline
 
-The pipeline of processing ASTERGDEMv2.0 DEMs of London.
+The pipeline of processing ASTERGDEMv2.0 DEMs.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="550">
 
@@ -111,17 +111,17 @@ The directory of source DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="350">
 
-1. Prepare **ASTERGDEMv2.0** DEMs.
+1. Prepare source **ASTERGDEMv2.0** DEMs.
 
-   1. Download ASTERGDEMv2.0 DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
+   1. Download DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
 
    2. Copy DEMs to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
 
-2. Prepare **EUDEMv1.1** DEM.
+2. Prepare source **EUDEMv1.1** DEM.
 
-   1. Download EUDEMv1.1 DEM ```eu_dem_v11_E30N30.tif```.
+   1. Download DEM ```eu_dem_v11_E30N30.tif```.
 
-   2. Copy ```eu_dem_v11_E30N30.tif``` to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
+   2. Copy DEM to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
 
 3. To process **ASTERGDEMv2.0** DEMs, run ```run_PyDEM_London_ASTGDEMv20.py```.
 
@@ -129,14 +129,14 @@ The directory of source DEMs is shown in the following figure.
 
 ## Results
 
-- London DEM (ASTERGDEMv2.0) in Pseudo Mercator PCS
-<img src="" height="100">
+- ASTERGDEMv2.0 DEM (London) in Pseudo Mercator PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG3857.png" height="100">
 
-- London DEM (ASTERGDEMv2.0) in BNG PCS
-<img src="" height="100">
+- ASTERGDEMv2.0 DEM (London) in BNG PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG27700.png" height="100">
 
-- London DEM (ASTERGDEMv2.0) in LAEA PCS
-<img src="" height="100">
+- ASTERGDEMv2.0 DEM (London) in LAEA PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG3035.png" height="100">
 
 - **Elevation of 5 Locations in London**
 | No. | Latitude | Longitude | Elev. in WGS-84 (m)     | Elev. in OSGB-36 (m)     | Elev. in Google Earth (m) 
@@ -173,4 +173,3 @@ The directory of source DEMs is shown in the following figure.
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
 <i>Last updated: 20/03/2019</i>
-
