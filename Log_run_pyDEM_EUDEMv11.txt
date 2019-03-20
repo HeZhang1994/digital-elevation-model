@@ -1,0 +1,344 @@
+hezhang@lcb-dl-01:~/PhD_Projects/tbm_201902_1_DigitalElevationModel$ python run_PyDEM_London_EUDEMv11.py
+
+>>> <EUDEMv11> Convert DEM from LAEA PCS to ETRS-89 GCS.
+Creating output file that is 52428P x 30505L.
+Processing input file DATA/DATA_EUDEMv11/EUDEMv11_EPSG3035.tif.
+Using internal nodata values (e.g. -3.40282e+38) for image DATA/DATA_EUDEMv11/EUDEMv11_EPSG3035.tif.
+Copying nodata values from source DATA/DATA_EUDEMv11/EUDEMv11_EPSG3035.tif to destination DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 40000
+The number of column (width) is: 40000
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (3000000.0, 25.0, 0.0, 4000000.0, 0.0, -25.0)
+The GCS/PCS information is:
+ PROJCS["ETRS89_ETRS_LAEA",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",52],PARAMETER["longitude_of_center",10],PARAMETER["false_easting",4321000],PARAMETER["false_northing",3210000],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+>>> Complete!
+
+
+>>> <EUDEMv11> Transform DEM from ETRS-89 GCS to WGS-84 GCS.
+Creating output file that is 52428P x 30505L.
+Processing input file DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif.
+Using internal nodata values (e.g. -3.40282e+38) for image DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif.
+Copying nodata values from source DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif to destination DATA/DATA_EUDEMv11/EUDEMv11_EPSG4326.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+>>> Complete!
+
+
+>>> <EUDEMv11> Transform DEM from ETRS-89 GCS to OSGB-36 GCS.
+Creating output file that is 52430P x 30506L.
+Processing input file DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif.
+Using internal nodata values (e.g. -3.40282e+38) for image DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif.
+Copying nodata values from source DATA/DATA_EUDEMv11/EUDEMv11_EPSG4258.tif to destination DATA/DATA_EUDEMv11/EUDEMv11_EPSG4277.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+The information of DEM:
+The number of row (height) is: 30506
+The number of column (width) is: 52430
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266102928602475, 0.0003392475335051166, 0.0, 58.98812292836723, 0.0, -0.0003392475335051166)
+The GCS/PCS information is:
+ GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]]
+
+>>> Complete!
+
+
+>>> Read London air quality monitoring station data file.
+  Unnamed: 0            ...                               SiteName
+0        BX9            ...              Bexley - Slade Green FDMS
+1        BX1            ...                   Bexley - Slade Green
+2        BL0            ...                    Camden - Bloomsbury
+
+[3 rows x 8 columns]
+
+*==> The number of stations is: 24
+
+*==> The location (lat, lng) of stations are:
+ [[51.46598327  0.18487713]
+ [51.46598327  0.18487713]
+ [51.522287   -0.125848  ]
+ [51.52770662 -0.12905321]
+ [51.544219   -0.175284  ]
+ [51.51452534 -0.10451563]
+ [51.51384718 -0.07776568]
+ [51.410039   -0.127523  ]
+ [51.490532    0.074003  ]
+ [51.45258     0.070766  ]
+ [51.486957    0.095111  ]
+ [51.456357    0.040725  ]
+ [51.4563      0.085606  ]
+ [51.617327   -0.298775  ]
+ [51.52078746  0.20546071]
+ [51.48878    -0.441627  ]
+ [51.52104675 -0.21349214]
+ [51.52104675 -0.21349214]
+ [51.474954   -0.039641  ]
+ [51.56948433  0.08290747]
+ [51.42525604 -0.34560829]
+ [51.3892869  -0.14166153]
+ [51.51504617 -0.00841849]
+ [51.52254    -0.15459   ]]
+
+>>> Complete!
+
+
+>>> <EUDEMv11> Get the elevation from DEM in WGS-84 GCS.
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+
+*==> The elevation information of stations is:
+ [[    0.            51.46598327     0.18487713 22174.
+  36706.            12.63551998]
+ [    1.            51.46598327     0.18487713 22174.
+  36706.            12.63551998]
+ [    2.            51.522287      -0.125848   22008.
+  35790.            37.60099411]
+ [    3.            51.52770662    -0.12905321 21992.
+  35781.            30.68862724]
+ [    4.            51.544219      -0.175284   21943.
+  35645.            61.01919174]
+ [    5.            51.51452534    -0.10451563 22031.
+  35853.            25.66654587]
+ [    6.            51.51384718    -0.07776568 22033.
+  35932.            29.40543556]
+ [    7.            51.410039      -0.127523   22339.
+  35785.            36.34508514]
+ [    8.            51.490532       0.074003   22102.
+  36379.            11.27258968]
+ [    9.            51.45258        0.070766   22214.
+  36370.            66.39667511]
+ [   10.            51.486957       0.095111   22112.
+  36442.            11.88549519]
+ [   11.            51.456357       0.040725   22202.
+  36281.            31.31890869]
+ [   12.            51.4563         0.085606   22203.
+  36414.            64.95016479]
+ [   13.            51.617327      -0.298775   21728.
+  35281.            79.23999786]
+ [   14.            51.52078746     0.20546071 22012.
+  36767.             7.36576653]
+ [   15.            51.48878       -0.441627   22107.
+  34859.            27.24001312]
+ [   16.            51.52104675    -0.21349214 22012.
+  35532.            25.52720642]
+ [   17.            51.52104675    -0.21349214 22012.
+  35532.            25.52720642]
+ [   18.            51.474954      -0.039641   22148.
+  36044.            14.32332325]
+ [   19.            51.56948433     0.08290747 21869.
+  36406.            15.99652195]
+ [   20.            51.42525604    -0.34560829 22294.
+  35142.            13.35388565]
+ [   21.            51.3892869     -0.14166153 22400.
+  35744.            32.15060806]
+ [   22.            51.51504617    -0.00841849 22029.
+  36136.             5.19105673]
+ [   23.            51.52254       -0.15459    22007.
+  35706.            36.85784912]]
+
+*==> The elevation value of stations is:
+ [12 12 37 30 61 25 29 36 11 66 11 31 64 79  7 27 25 25 14 15 13 32  5 36]
+
+>>> Complete!
+
+
+>>> <EUDEMv11> Get the elevation from DEM in OSGB-36 GCS.
+
+The information of DEM:
+The number of row (height) is: 30506
+The number of column (width) is: 52430
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266102928602475, 0.0003392475335051166, 0.0, 58.98812292836723, 0.0, -0.0003392475335051166)
+The GCS/PCS information is:
+ GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-12.266102928602475, 0.0003392475335051166, 0.0, 58.98812292836723, 0.0, -0.0003392475335051166)
+
+*==> The elevation information of stations is:
+ [[    0.            51.46598327     0.18487713 22173.
+  36702.            12.47727203]
+ [    1.            51.46598327     0.18487713 22173.
+  36702.            12.47727203]
+ [    2.            51.522287      -0.125848   22007.
+  35786.            37.75251389]
+ [    3.            51.52770662    -0.12905321 21991.
+  35776.            26.8823452 ]
+ [    4.            51.544219      -0.175284   21942.
+  35640.            58.50819397]
+ [    5.            51.51452534    -0.10451563 22030.
+  35849.            30.98666763]
+ [    6.            51.51384718    -0.07776568 22032.
+  35928.            32.92979813]
+ [    7.            51.410039      -0.127523   22338.
+  35781.            35.5172081 ]
+ [    8.            51.490532       0.074003   22101.
+  36375.            11.85224247]
+ [    9.            51.45258        0.070766   22213.
+  36365.            71.22161865]
+ [   10.            51.486957       0.095111   22111.
+  36437.             8.77665329]
+ [   11.            51.456357       0.040725   22201.
+  36277.            30.45423889]
+ [   12.            51.4563         0.085606   22202.
+  36409.            66.69743347]
+ [   13.            51.617327      -0.298775   21727.
+  35276.            78.91999817]
+ [   14.            51.52078746     0.20546071 22011.
+  36762.             8.10325527]
+ [   15.            51.48878       -0.441627   22106.
+  34855.            26.04798698]
+ [   16.            51.52104675    -0.21349214 22011.
+  35527.            24.9171505 ]
+ [   17.            51.52104675    -0.21349214 22011.
+  35527.            24.9171505 ]
+ [   18.            51.474954      -0.039641   22147.
+  36040.             8.97394276]
+ [   19.            51.56948433     0.08290747 21868.
+  36401.            16.96926498]
+ [   20.            51.42525604    -0.34560829 22293.
+  35138.            13.82033825]
+ [   21.            51.3892869     -0.14166153 22399.
+  35739.            32.94750977]
+ [   22.            51.51504617    -0.00841849 22028.
+  36132.             9.25135612]
+ [   23.            51.52254       -0.15459    22006.
+  35701.            35.54499435]]
+
+*==> The elevation value of stations is:
+ [12 12 37 26 58 30 32 35 11 71  8 30 66 78  8 26 24 24  8 16 13 32  9 35]
+
+>>> Complete!
+
+
+>>> <EUDEMv11> Get the elevation from DEM in ETRS-89 GCS.
+
+The information of DEM:
+The number of row (height) is: 30505
+The number of column (width) is: 52428
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-12.266271034206424, 0.00033920980218715875, 0.0, 58.98761768429964, 0.0, -0.00033920980218715875)
+
+*==> The elevation information of stations is:
+ [[    0.            51.46598327     0.18487713 22174.
+  36706.            12.63551998]
+ [    1.            51.46598327     0.18487713 22174.
+  36706.            12.63551998]
+ [    2.            51.522287      -0.125848   22008.
+  35790.            37.60099411]
+ [    3.            51.52770662    -0.12905321 21992.
+  35781.            30.68862724]
+ [    4.            51.544219      -0.175284   21943.
+  35645.            61.01919174]
+ [    5.            51.51452534    -0.10451563 22031.
+  35853.            25.66654587]
+ [    6.            51.51384718    -0.07776568 22033.
+  35932.            29.40543556]
+ [    7.            51.410039      -0.127523   22339.
+  35785.            36.34508514]
+ [    8.            51.490532       0.074003   22102.
+  36379.            11.27258968]
+ [    9.            51.45258        0.070766   22214.
+  36370.            66.39667511]
+ [   10.            51.486957       0.095111   22112.
+  36442.            11.88549519]
+ [   11.            51.456357       0.040725   22202.
+  36281.            31.31890869]
+ [   12.            51.4563         0.085606   22203.
+  36414.            64.95016479]
+ [   13.            51.617327      -0.298775   21728.
+  35281.            79.23999786]
+ [   14.            51.52078746     0.20546071 22012.
+  36767.             7.36576653]
+ [   15.            51.48878       -0.441627   22107.
+  34859.            27.24001312]
+ [   16.            51.52104675    -0.21349214 22012.
+  35532.            25.52720642]
+ [   17.            51.52104675    -0.21349214 22012.
+  35532.            25.52720642]
+ [   18.            51.474954      -0.039641   22148.
+  36044.            14.32332325]
+ [   19.            51.56948433     0.08290747 21869.
+  36406.            15.99652195]
+ [   20.            51.42525604    -0.34560829 22294.
+  35142.            13.35388565]
+ [   21.            51.3892869     -0.14166153 22400.
+  35744.            32.15060806]
+ [   22.            51.51504617    -0.00841849 22029.
+  36136.             5.19105673]
+ [   23.            51.52254       -0.15459    22007.
+  35706.            36.85784912]]
+
+*==> The elevation value of stations is:
+ [12 12 37 30 61 25 29 36 11 66 11 31 64 79  7 27 25 25 14 15 13 32  5 36]
+
+>>> Complete!
+
+
+>>> Compare the elevation obtained from different DEMs.
+
+EUDEMv11_WD [12 12 37 30 61 25 29 36 11 66 11 31 64 79  7 27 25 25 14 15 13 32  5 36]
+
+EUDEMv11_UK [12 12 37 26 58 30 32 35 11 71  8 30 66 78  8 26 24 24  8 16 13 32  9 35]
+
+EUDEMv11_EU [12 12 37 30 61 25 29 36 11 66 11 31 64 79  7 27 25 25 14 15 13 32  5 36]
+
+>>> Complete!
