@@ -42,7 +42,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 Download Link: https://earthexplorer.usgs.gov/
 
-See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed user guide (highly recommended for tyro).
+See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed user guide (recommended).
 
 - **EUDEMv1.1**
 
@@ -129,23 +129,25 @@ The directory of source DEMs is shown in the following figure.
 
 ## Results
 
-- ASTERGDEMv2.0 DEM (London) in Pseudo Mercator PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG3857.png" height="100">
+- **ASTERGDEMv2.0** DEM (London) in **Pseudo Mercator** PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="400">
 
-- ASTERGDEMv2.0 DEM (London) in BNG PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG27700.png" height="100">
+- **ASTERGDEMv2.0** DEM (London) in **BNG** PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="400">
 
-- ASTERGDEMv2.0 DEM (London) in LAEA PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/LD_ASTGDEMv20_EPSG3035.png" height="100">
+- **ASTERGDEMv2.0** DEM (London) in **LAEA** PCS
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="400">
 
-- **Elevation of 5 Locations in London**
-| No. | Latitude | Longitude | Elev. in WGS-84 (m)     | Elev. in OSGB-36 (m)     | Elev. in Google Earth (m) 
-| --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
-| 1   | 51.52104 | -0.21349  | 31 (+7)                 | 22 (-1)                  | 23 
-| 2   | 51.52770 | -0.12905  | 40 (+0)                 | 25 (-15)                 | 40 (Building/Road) 
-| 3   | 51.42525 | -0.34560  | 24 (+12)                | 14 (+2)                  | 12 
-| 4   | 51.45635 | 0.040725  | 41 (+13)                | 25 (-3)                  | 28 
-| 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
+- **Elevation of 24 Locations in London (meters)**
+
+| No.           | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
+| ------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+| ASTGDEMv20_WD | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
+| ASTGDEMv20_UK | 14 | 14 | 36 | 25 | 60 | 37 | 33 | 40 | 20 | 68 | 12 | 25 | 62 | 59 | 15 | 18 | 22 | 22 | 15 | 21 | 14 | 33 | 8  | 47 
+| ASTGDEMv20_EU | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
+| EUDEMv11_WD   | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
+| EUDEMv11_UK   | 12 | 12 | 37 | 26 | 58 | 30 | 32 | 35 | 11 | 71 | 8  | 30 | 66 | 78 | 8  | 26 | 24 | 24 | 8  | 16 | 13 | 32 | 9  | 35 
+| EUDEMv11_EU   | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
 
 <!--
 - **Elevation of 5 Locations in London**
