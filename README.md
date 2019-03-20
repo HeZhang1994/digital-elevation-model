@@ -6,7 +6,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading elevation of given locations.
+This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading the elevation of given locations.
 
 ## Table of Contents
 
@@ -39,13 +39,13 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 ### ASTERGDEM
 
-ASTERGDEMv2.0 Download Link: https://earthexplorer.usgs.gov/
+ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
 
-See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed user guide (recommended).
+See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed introduction and user guide (recommended).
 
 ### EUDEM
 
-EUDEMv1.1 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Dependencies
 
@@ -54,9 +54,9 @@ EUDEMv1.1 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-de
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+The following procedures of installing **GDAL** for Python are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
-1. Install GDAL Development Libraries and export environment variables for the compiler in Terminal.
+1. Install **GDAL Development Libraries** and export environment variables for the compiler in Terminal.
 ```bash
 $ sudo apt-get install libgdal-dev
 
@@ -64,21 +64,21 @@ $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
-2. Install GDAL Python Libraries in Terminal.
+2. Install **GDAL Python Libraries** in Terminal.
 ```bash
 $ pip install GDAL
 ```
 
-If it comes with the *error*: ```cpl_vsi_error.h: No such file or directory```, try the following procedures.
+If it comes with the *error*: `cpl_vsi_error.h: No such file or directory`, please try the following procedures.
 
-3. Check the required version of GDAL Python Libraries in Terminal.
+3. Check the required version of **GDAL Python Libraries** in Terminal.
 ```bash
 $ gdal-config --version
 ```
 
-4. Download the source file (e.g., ```gdal-1.11.3.tar.gz```) of the related GDAL version (e.g., 1.11.3) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+4. Download the source file (e.g., `gdal-1.11.3.tar.gz`) of the related GDAL version (e.g., `1.11.3`) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
 
-5. Manually install GDAL Python Libraries in Terminal.
+5. Manually install **GDAL Python Libraries** in Terminal.
 ```bash
 $ cd path/of/downloaded/gdal/package
 
@@ -96,7 +96,7 @@ $ cd path/of/downloaded/gdal/package
 ~$ python setup.py install
 ```
 
-6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is completed.
+6. Try `>>> from osgeo import gdal` in Python. If no error occurs, the installation has accomplished.
 
 ## Pipeline of Processing ASTERGDEM
 
@@ -110,31 +110,31 @@ The directory of source DEMs is shown in the following figure.
 
 1. Prepare **ASTERGDEMv2.0** source DEMs.
 
-   1. Download DEMs ```ASTGTM2_N51W001_dem.tif``` and ```ASTGTM2_N51E000_dem.tif```.
+   1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif`.
 
-   2. Copy DEMs to ```DATA/DATA_ASTGDEMv20/EPSG4326_s/``` folder.
+   2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
 
 2. Prepare **EUDEMv1.1** source DEM.
 
-   1. Download DEM ```eu_dem_v11_E30N30.tif```.
+   1. Download DEM(s) `eu_dem_v11_E30N30.tif`.
 
-   2. Copy DEM to ```DATA/DATA_EUDEMv11/``` folder and rename as ```EUDEMv11_EPSG3035.tif```.
+   2. Copy DEM(s) to the folder `DATA/DATA_EUDEMv11/` and rename as `EUDEMv11_EPSG3035.tif`.
 
-3. To process **ASTERGDEMv2.0** DEMs, run ```run_PyDEM_London_ASTGDEMv20.py```.
+3. To process **ASTERGDEMv2.0** DEMs, run `run_PyDEM_London_ASTGDEMv20.py`.
 
-4. To process **EUDEMv1.1** DEM, run ```run_PyDEM_London_EUDEMv11.py```.
+4. To process **EUDEMv1.1** DEM(s), run `run_PyDEM_London_EUDEMv11.py`.
 
 ## Results
 
 ### 2D DEM Images
 
-- ASTERGDEMv2.0 DEM (London) in Pseudo Mercator PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in Pseudo Mercator PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- ASTERGDEMv2.0 DEM (London) in BNG PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in BNG PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- ASTERGDEMv2.0 DEM (London) in LAEA PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in LAEA PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### Elevation
