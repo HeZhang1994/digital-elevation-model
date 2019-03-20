@@ -1,0 +1,473 @@
+hezhang@lcb-dl-01:~/PhD_Projects/tbm_201902_1_DigitalElevationModel$ python run_PyDEM_London_ASTGDEMv20.py
+
+>>> <ASTGDEMv20> Remove the overlapped elements of DEMs in WGS-84 GCS.
+
+>>> Process the 1-th DEM: ASTGTM2_N51W001_dem.tif
+
+The information of DEM:
+The number of row (height) is: 3601
+The number of column (width) is: 3601
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+*==> The shape of DEM is: [3601, 3601]
+
+*==> The shape of the reformed DEM is: [3600, 3600]
+
+>>> Write the reformed DEM to: ASTGTM2_N51W001_dem.tif
+
+>>> Process the 2-th DEM: ASTGTM2_N51E000_dem.tif
+
+The information of DEM:
+The number of row (height) is: 3601
+The number of column (width) is: 3601
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-0.0001388888888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+*==> The shape of DEM is: [3601, 3601]
+
+*==> The shape of the reformed DEM is: [3600, 3600]
+
+>>> Write the reformed DEM to: ASTGTM2_N51E000_dem.tif
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Merge the reformed DEMs in WGS-84 GCS.
+
+>>> Read the 1-th DEM: ASTGTM2_N51W001_dem.tif
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 3600
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+*==> The shape of DEM is: [3600, 3600]
+
+>>> Read the 2-th DEM: ASTGTM2_N51E000_dem.tif
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 3600
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-0.0001388888888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+*==> The shape of DEM is: [3600, 3600]
+
+*==> The shape of the merged DEM is: [3600, 7200]
+
+>>> Write the merged DEM to: ASTGDEMv20_EPSG4326.tif
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Transform the merged DEM from WGS-84 GCS to OSGB-36 GCS.
+Creating output file that is 7200P x 3600L.
+Processing input file DATA/DATA_ASTGDEMv20/ASTGDEMv20_EPSG4326.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-0.9986513108124788, 0.00027780667700100285, 0.0, 51.99969924747907, 0.0, -0.00027780667700100285)
+The GCS/PCS information is:
+ GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Transform the merged DEM from WGS-84 GCS to ETRS-89 GCS.
+Creating output file that is 7200P x 3600L.
+Processing input file DATA/DATA_ASTGDEMv20/ASTGDEMv20_EPSG4326.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777774, 0.0, 52.000138888888884, 0.0, -0.0002777777777777774)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Project DEM from WGS-84 GCS to Pseudo Mercator PCS.
+Creating output file that is 6276P x 5041L.
+Processing input file DATA/DATA_ASTGDEMv20/ASTGDEMv20_EPSG4326.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+The information of DEM:
+The number of row (height) is: 5041
+The number of column (width) is: 6276
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-111334.95183366156, 35.474973641899794, 0.0, 6800150.567328675, 0.0, -35.474973641899794)
+The GCS/PCS information is:
+ PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs"],AUTHORITY["EPSG","3857"]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Project DEM from OSGB-36 GCS to BNG PCS.
+Creating output file that is 6418P x 5203L.
+Processing input file DATA/DATA_ASTGDEMv20/ASTGDEMv20_EPSG4277.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-0.9986513108124788, 0.00027780667700100285, 0.0, 51.99969924747907, 0.0, -0.00027780667700100285)
+The GCS/PCS information is:
+ GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]]
+
+The information of DEM:
+The number of row (height) is: 5203
+The number of column (width) is: 6418
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (468736.14475350257, 22.101898961294147, 0.0, 237774.34151860897, 0.0, -22.101898961294147)
+The GCS/PCS information is:
+ PROJCS["OSGB 1936 / British National Grid",GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",49],PARAMETER["central_meridian",-2],PARAMETER["scale_factor",0.9996012717],PARAMETER["false_easting",400000],PARAMETER["false_northing",-100000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","27700"]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Project DEM from ETRS-89 GCS to LAEA PCS.
+Creating output file that is 6901P x 5852L.
+Processing input file DATA/DATA_ASTGDEMv20/ASTGDEMv20_EPSG4258.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777774, 0.0, 52.000138888888884, 0.0, -0.0002777777777777774)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+The information of DEM:
+The number of row (height) is: 5852
+The number of column (width) is: 6901
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (3552161.2997090546, 22.104339263837893, 0.0, 3266941.5106412214, 0.0, -22.104339263837893)
+The GCS/PCS information is:
+ PROJCS["ETRS89 / LAEA Europe",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",52],PARAMETER["longitude_of_center",10],PARAMETER["false_easting",4321000],PARAMETER["false_northing",3210000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","3035"]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Display 2D DEM image in Pseudo Mercator PCS.
+
+>>> <ASTGDEMv20> Display 2D DEM image in BNG PCS.
+
+>>> <ASTGDEMv20> Display 2D DEM image in LAEA PCS.
+
+>>> Complete!
+
+
+>>> Read London air quality monitoring station data file.
+  Unnamed: 0            ...                               SiteName
+0        BX9            ...              Bexley - Slade Green FDMS
+1        BX1            ...                   Bexley - Slade Green
+2        BL0            ...                    Camden - Bloomsbury
+
+[3 rows x 8 columns]
+
+*==> The number of stations is: 24
+
+*==> The location (lat, lng) of stations are:
+ [[51.46598327  0.18487713]
+ [51.46598327  0.18487713]
+ [51.522287   -0.125848  ]
+ [51.52770662 -0.12905321]
+ [51.544219   -0.175284  ]
+ [51.51452534 -0.10451563]
+ [51.51384718 -0.07776568]
+ [51.410039   -0.127523  ]
+ [51.490532    0.074003  ]
+ [51.45258     0.070766  ]
+ [51.486957    0.095111  ]
+ [51.456357    0.040725  ]
+ [51.4563      0.085606  ]
+ [51.617327   -0.298775  ]
+ [51.52078746  0.20546071]
+ [51.48878    -0.441627  ]
+ [51.52104675 -0.21349214]
+ [51.52104675 -0.21349214]
+ [51.474954   -0.039641  ]
+ [51.56948433  0.08290747]
+ [51.42525604 -0.34560829]
+ [51.3892869  -0.14166153]
+ [51.51504617 -0.00841849]
+ [51.52254    -0.15459   ]]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Get the elevation from DEM in WGS-84 GCS.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+The GCS/PCS information is:
+ GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-1.000138888888889, 0.0002777777777777778, 0.0, 52.00013888888889, 0.0, -0.0002777777777777778)
+
+*==> The elevation information of stations is:
+ [[   0.           51.46598327    0.18487713 1923.         4266.
+    18.        ]
+ [   1.           51.46598327    0.18487713 1923.         4266.
+    18.        ]
+ [   2.           51.522287     -0.125848   1720.         3147.
+    38.        ]
+ [   3.           51.52770662   -0.12905321 1701.         3136.
+    40.        ]
+ [   4.           51.544219     -0.175284   1641.         2969.
+    65.        ]
+ [   5.           51.51452534   -0.10451563 1748.         3224.
+    26.        ]
+ [   6.           51.51384718   -0.07776568 1751.         3321.
+    35.        ]
+ [   7.           51.410039     -0.127523   2124.         3141.
+    31.        ]
+ [   8.           51.490532      0.074003   1835.         3867.
+    17.        ]
+ [   9.           51.45258       0.070766   1971.         3855.
+    79.        ]
+ [  10.           51.486957      0.095111   1847.         3943.
+    13.        ]
+ [  11.           51.456357      0.040725   1958.         3747.
+    41.        ]
+ [  12.           51.4563        0.085606   1958.         3909.
+    62.        ]
+ [  13.           51.617327     -0.298775   1378.         2525.
+    82.        ]
+ [  14.           51.52078746    0.20546071 1726.         4340.
+     9.        ]
+ [  15.           51.48878      -0.441627   1841.         2011.
+    13.        ]
+ [  16.           51.52104675   -0.21349214 1725.         2832.
+    31.        ]
+ [  17.           51.52104675   -0.21349214 1725.         2832.
+    31.        ]
+ [  18.           51.474954     -0.039641   1891.         3458.
+    15.        ]
+ [  19.           51.56948433    0.08290747 1550.         3899.
+    22.        ]
+ [  20.           51.42525604   -0.34560829 2070.         2356.
+    24.        ]
+ [  21.           51.3892869    -0.14166153 2199.         3091.
+    40.        ]
+ [  22.           51.51504617   -0.00841849 1746.         3570.
+     8.        ]
+ [  23.           51.52254      -0.15459    1719.         3044.
+    40.        ]]
+
+*==> The elevation value of stations is:
+ [18 18 38 40 65 26 35 31 17 79 13 41 62 82  9 13 31 31 15 22 24 40  8 40]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Get the elevation from DEM in OSGB-36 GCS.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-0.9986513108124788, 0.00027780667700100285, 0.0, 51.99969924747907, 0.0, -0.00027780667700100285)
+The GCS/PCS information is:
+ GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.3249646000044,AUTHORITY["EPSG","7001"]],TOWGS84[446.448,-125.157,542.06,0.15,0.247,0.842,-20.489],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4277"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-0.9986513108124788, 0.00027780667700100285, 0.0, 51.99969924747907, 0.0, -0.00027780667700100285)
+
+*==> The elevation information of stations is:
+ [[   0.           51.46598327    0.18487713 1921.         4260.
+    14.        ]
+ [   1.           51.46598327    0.18487713 1921.         4260.
+    14.        ]
+ [   2.           51.522287     -0.125848   1719.         3142.
+    36.        ]
+ [   3.           51.52770662   -0.12905321 1699.         3130.
+    25.        ]
+ [   4.           51.544219     -0.175284   1640.         2964.
+    60.        ]
+ [   5.           51.51452534   -0.10451563 1746.         3219.
+    37.        ]
+ [   6.           51.51384718   -0.07776568 1749.         3315.
+    33.        ]
+ [   7.           51.410039     -0.127523   2123.         3136.
+    40.        ]
+ [   8.           51.490532      0.074003   1833.         3861.
+    20.        ]
+ [   9.           51.45258       0.070766   1969.         3850.
+    68.        ]
+ [  10.           51.486957      0.095111   1846.         3937.
+    12.        ]
+ [  11.           51.456357      0.040725   1956.         3741.
+    25.        ]
+ [  12.           51.4563        0.085606   1956.         3903.
+    62.        ]
+ [  13.           51.617327     -0.298775   1376.         2519.
+    59.        ]
+ [  14.           51.52078746    0.20546071 1724.         4334.
+    15.        ]
+ [  15.           51.48878      -0.441627   1839.         2005.
+    18.        ]
+ [  16.           51.52104675   -0.21349214 1723.         2826.
+    22.        ]
+ [  17.           51.52104675   -0.21349214 1723.         2826.
+    22.        ]
+ [  18.           51.474954     -0.039641   1889.         3452.
+    15.        ]
+ [  19.           51.56948433    0.08290747 1549.         3893.
+    21.        ]
+ [  20.           51.42525604   -0.34560829 2068.         2351.
+    14.        ]
+ [  21.           51.3892869    -0.14166153 2197.         3085.
+    33.        ]
+ [  22.           51.51504617   -0.00841849 1745.         3564.
+     8.        ]
+ [  23.           51.52254      -0.15459    1718.         3038.
+    47.        ]]
+
+*==> The elevation value of stations is:
+ [14 14 36 25 60 37 33 40 20 68 12 25 62 59 15 18 22 22 15 21 14 33  8 47]
+
+>>> Complete!
+
+
+>>> <ASTGDEMv20> Get the elevation from DEM in ETRS-89 GCS.
+
+The information of DEM:
+The number of row (height) is: 3600
+The number of column (width) is: 7200
+The number of band is: 1
+The 6 GeoTransform parameters are:
+ (-1.000138888888889, 0.0002777777777777774, 0.0, 52.000138888888884, 0.0, -0.0002777777777777774)
+The GCS/PCS information is:
+ GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4258"]]
+
+The 6 GeoTransform parameters of DEM are:
+ (-1.000138888888889, 0.0002777777777777774, 0.0, 52.000138888888884, 0.0, -0.0002777777777777774)
+
+*==> The elevation information of stations is:
+ [[   0.           51.46598327    0.18487713 1923.         4266.
+    18.        ]
+ [   1.           51.46598327    0.18487713 1923.         4266.
+    18.        ]
+ [   2.           51.522287     -0.125848   1720.         3147.
+    38.        ]
+ [   3.           51.52770662   -0.12905321 1701.         3136.
+    40.        ]
+ [   4.           51.544219     -0.175284   1641.         2969.
+    65.        ]
+ [   5.           51.51452534   -0.10451563 1748.         3224.
+    26.        ]
+ [   6.           51.51384718   -0.07776568 1751.         3321.
+    35.        ]
+ [   7.           51.410039     -0.127523   2124.         3141.
+    31.        ]
+ [   8.           51.490532      0.074003   1835.         3867.
+    17.        ]
+ [   9.           51.45258       0.070766   1971.         3855.
+    79.        ]
+ [  10.           51.486957      0.095111   1847.         3943.
+    13.        ]
+ [  11.           51.456357      0.040725   1958.         3747.
+    41.        ]
+ [  12.           51.4563        0.085606   1958.         3909.
+    62.        ]
+ [  13.           51.617327     -0.298775   1378.         2525.
+    82.        ]
+ [  14.           51.52078746    0.20546071 1726.         4340.
+     9.        ]
+ [  15.           51.48878      -0.441627   1841.         2011.
+    13.        ]
+ [  16.           51.52104675   -0.21349214 1725.         2832.
+    31.        ]
+ [  17.           51.52104675   -0.21349214 1725.         2832.
+    31.        ]
+ [  18.           51.474954     -0.039641   1891.         3458.
+    15.        ]
+ [  19.           51.56948433    0.08290747 1550.         3899.
+    22.        ]
+ [  20.           51.42525604   -0.34560829 2070.         2356.
+    24.        ]
+ [  21.           51.3892869    -0.14166153 2199.         3091.
+    40.        ]
+ [  22.           51.51504617   -0.00841849 1746.         3570.
+     8.        ]
+ [  23.           51.52254      -0.15459    1719.         3044.
+    40.        ]]
+
+*==> The elevation value of stations is:
+ [18 18 38 40 65 26 35 31 17 79 13 41 62 82  9 13 31 31 15 22 24 40  8 40]
+
+>>> Complete!
+
+
+>>> Compare the elevation obtained from different DEMs.
+
+ASTGDEMv20_WD [18 18 38 40 65 26 35 31 17 79 13 41 62 82  9 13 31 31 15 22 24 40  8 40]
+
+ASTGDEMv20_UK [14 14 36 25 60 37 33 40 20 68 12 25 62 59 15 18 22 22 15 21 14 33  8 47]
+
+ASTGDEMv20_EU [18 18 38 40 65 26 35 31 17 79 13 41 62 82  9 13 31 31 15 22 24 40  8 40]
+
+>>> Complete!
