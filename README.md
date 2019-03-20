@@ -21,7 +21,6 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Results](#results)
 - [References](#references)
 
-
 ## Terms and Abbreviations
 
 | Term                                       | Abbreviation | Remark 
