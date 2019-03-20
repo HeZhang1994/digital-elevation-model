@@ -103,13 +103,13 @@ $ cd path/of/downloaded/gdal/package
 
 The pipeline of processing **ASTERGDEMv2.0** DEMs.
 
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="550">
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_Process_Pipeline.png" height="550">
 
 ## Usage
 
 The directory of source DEMs is shown in the following figure.
 
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/DEM_Data_Contents.png" height="350">
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="350">
 
 1. Prepare source **ASTERGDEMv2.0** DEMs.
 
@@ -129,14 +129,14 @@ The directory of source DEMs is shown in the following figure.
 
 ## Results
 
-- **ASTERGDEMv2.0** DEM (London) in **Pseudo Mercator** PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="400">
+- **ASTERGDEMv2.0 DEM (London) in Pseudo Mercator PCS**
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="200">
 
-- **ASTERGDEMv2.0** DEM (London) in **BNG** PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="400">
+- **ASTERGDEMv2.0 DEM (London) in BNG PCS**
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="200">
 
-- **ASTERGDEMv2.0** DEM (London) in **LAEA** PCS
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="400">
+- **ASTERGDEMv2.0 DEM (London) in LAEA PCS**
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="200">
 
 - **Elevation of 24 Locations in London (meters)**
 
