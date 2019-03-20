@@ -18,6 +18,8 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Pipeline of Processing ASTERGDEM](#pipeline-of-processing-astergdem)
 - [Usage](#usage)
 - [Results](#results)
+  - [2D DEM Images](#2d-dem-images)
+  - [Elevation](#elevation)
 - [Terms and Abbreviations](#terms-and-abbreviations)
 - [References](#references)
 
@@ -124,6 +126,8 @@ The directory of source DEMs is shown in the following figure.
 
 ## Results
 
+### 2D DEM Images
+
 - **ASTERGDEMv2.0 DEM (London) in Pseudo Mercator PCS**
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
@@ -133,7 +137,9 @@ The directory of source DEMs is shown in the following figure.
 - **ASTERGDEMv2.0 DEM (London) in LAEA PCS**
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
-- **Elevation of 24 Locations in London (meters)**
+### Elevation
+
+The elevation of 24 locations in London (meters).
 
 | No.           | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
 | ------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
