@@ -15,7 +15,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
 - [Dependencies](#dependencies)
-- [Pipeline](#pipeline)
+- [Pipeline of Processing ASTERGDEM](#pipeline-of-processing-astergdem)
 - [Usage](#usage)
 - [Results](#results)
 - [Terms and Abbreviations](#terms-and-abbreviations)
@@ -96,9 +96,7 @@ $ cd path/of/downloaded/gdal/package
 
 6. Try ```>>> from osgeo import gdal``` in Python. If no error occurs, the installation is completed.
 
-## Pipeline
-
-The pipeline of processing **ASTERGDEMv2.0** DEMs.
+## Pipeline of Processing ASTERGDEM
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_Process_Pipeline.png" height="550">
 
