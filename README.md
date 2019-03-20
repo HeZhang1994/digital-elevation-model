@@ -8,6 +8,20 @@
 
 This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading elevation of given locations.
 
+## Table of Contents
+
+- [Terms and Abbreviations](#terms-and-abbreviations)
+- [Functions](#functions)
+- [DEM Data](#dem-data)
+  - [ASTERGDEM](#astergdem)
+  - [EUDEM](#eudem)
+- [Dependencies](#dependencies)
+- [Pipeline](#pipeline)
+- [Usage](#usage)
+- [Results](#results)
+- [References](#references)
+
+
 ## Terms and Abbreviations
 
 | Term                                       | Abbreviation | Remark 
@@ -38,15 +52,15 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 ## DEM Data
 
-### ASTERGDEMv2.0
+### ASTERGDEM
 
-Download Link: https://earthexplorer.usgs.gov/
+ASTERGDEMv2.0 Download Link: https://earthexplorer.usgs.gov/
 
 See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed user guide (recommended).
 
-### EUDEMv1.1
+### EUDEM
 
-Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+EUDEMv1.1 Download Link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Dependencies
 
