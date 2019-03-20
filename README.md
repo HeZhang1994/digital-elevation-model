@@ -101,7 +101,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## Pipeline
 
-The pipeline of processing ASTERGDEMv2.0 DEMs.
+The pipeline of processing **ASTERGDEMv2.0** DEMs.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTER-GDEMv2_Process_Pipeline.png" height="550">
 
