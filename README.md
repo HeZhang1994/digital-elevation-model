@@ -17,7 +17,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 | Projected Coordinate System                | PCS          | [X-coor, Y-coor, Elevation] on 2D plane 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | Data Format of DEM (e.g., .tif) 
 | European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
-| 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG4326*, approx. the ellipsoid of Earth 
+| 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, approx. the ellipsoid of Earth 
 | Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
 | 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, approx. the ellipsoid of Britain 
 | British National Grid                      | BNG          | **PCS** of OSGB-36, *EPSG-27700* 
