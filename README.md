@@ -128,13 +128,13 @@ The directory of source DEMs is shown in the following figure.
 
 ### 2D DEM Images
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in Pseudo Mercator PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in **Pseudo Mercator** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in BNG PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in **BNG** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in LAEA PCS
+- The 2D DEM Image of ASTERGDEMv2.0 (London) in **LAEA** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### Elevation
