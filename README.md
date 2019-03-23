@@ -11,7 +11,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 ## Table of Contents
 
 - [Functions](#functions)
-- [DEM Data](#dem-data)
+- [Data](#data)
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
 - [Dependencies](#dependencies)
@@ -35,7 +35,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 - **Reading** elevation of given locations from DEM in GCS.
 
-## DEM Data
+## Data
 
 ### ASTERGDEM
 
@@ -191,4 +191,4 @@ The elevation of 24 locations in London (meters).
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 20/03/2019</i>
+<i>Last updated: 23/03/2019</i>
