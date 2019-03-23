@@ -110,13 +110,13 @@ The directory of source DEMs is shown in the following figure.
 
 1. Prepare **ASTERGDEMv2.0** source DEMs.
 
-   1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif`.
+   1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
 
    2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
 
 2. Prepare **EUDEMv1.1** source DEM.
 
-   1. Download DEM `eu_dem_v11_E30N30.tif`.
+   1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
 
    2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
