@@ -116,13 +116,13 @@ The directory of source DEMs is shown in the following figure.
 
 2. Prepare **EUDEMv1.1** source DEM.
 
-   1. Download DEM(s) `eu_dem_v11_E30N30.tif`.
+   1. Download DEM `eu_dem_v11_E30N30.tif`.
 
-   2. Copy DEM(s) to the folder `DATA/DATA_EUDEMv11/` and rename as `EUDEMv11_EPSG3035.tif`.
+   2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
-3. To process **ASTERGDEMv2.0** DEMs, run `run_PyDEM_London_ASTGDEMv20.py`.
+3. To process **ASTERGDEMv2.0** DEMs, run `run_iPyDEM_London_ASTGDEMv20.py`.
 
-4. To process **EUDEMv1.1** DEM(s), run `run_PyDEM_London_EUDEMv11.py`.
+4. To process **EUDEMv1.1** DEM, run `run_iPyDEM_London_EUDEMv11.py`.
 
 ## Results
 
@@ -139,7 +139,7 @@ The directory of source DEMs is shown in the following figure.
 
 ### Elevation
 
-The elevation of 24 locations in London (meters).
+- The elevation of 24 locations in London (meters).
 
 | No.           | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
 | ------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
