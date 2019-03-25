@@ -120,9 +120,9 @@ The directory of source DEMs is shown in the following figure.
 
    2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
-3. To process **ASTERGDEMv2.0** DEMs, run `run_iPyDEM_London_ASTGDEMv20.py`.
+3. To process **ASTERGDEMv2.0** DEMs, run `run_ipyDEM_London_ASTGDEMv20.py`.
 
-4. To process **EUDEMv1.1** DEM, run `run_iPyDEM_London_EUDEMv11.py`.
+4. To process **EUDEMv1.1** DEM, run `run_ipyDEM_London_EUDEMv11.py`.
 
 ## Results
 
@@ -191,4 +191,4 @@ The directory of source DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 23/03/2019</i>
+<i>Last updated: 25/03/2019</i>
