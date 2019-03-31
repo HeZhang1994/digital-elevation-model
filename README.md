@@ -18,7 +18,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Pipeline of Processing ASTERGDEM](#pipeline-of-processing-astergdem)
 - [Usage](#usage)
 - [Results](#results)
-  - [2D DEM Images](#2d-dem-images)
+  - [2D DEM Images of London](#2d-dem-images-of-london)
   - [Elevation](#elevation)
 - [Terms and Abbreviations](#terms-and-abbreviations)
 - [References](#references)
@@ -104,10 +104,6 @@ $ cd path/of/downloaded/gdal/package
 
 ## Usage
 
-The directory of source DEMs is shown in the following figure.
-
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="350">
-
 1. Prepare **ASTERGDEMv2.0** source DEMs.
 
    1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
@@ -120,35 +116,39 @@ The directory of source DEMs is shown in the following figure.
 
    2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
+The directory of source DEMs is shown in the following figure.
+
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
+
 3. To process **ASTERGDEMv2.0** DEMs, run `run_ipyDEM_London_ASTGDEMv20.py`.
 
 4. To process **EUDEMv1.1** DEM, run `run_ipyDEM_London_EUDEMv11.py`.
 
 ## Results
 
-### 2D DEM Images
+### 2D DEM Images of London
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in **Pseudo Mercator** PCS
+- The 2D ASTERGDEMv2.0 DEM Image of **Pseudo Mercator** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in **BNG** PCS
+- The 2D ASTERGDEMv2.0 DEM Image of **BNG** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 (London) in **LAEA** PCS
+- The 2D ASTERGDEMv2.0 DEM Image of **LAEA** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### Elevation
 
 - The elevation of 24 locations in London (meters).
 
-| No.           | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
-| ------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
-| ASTGDEMv20_WD | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
-| ASTGDEMv20_UK | 14 | 14 | 36 | 25 | 60 | 37 | 33 | 40 | 20 | 68 | 12 | 25 | 62 | 59 | 15 | 18 | 22 | 22 | 15 | 21 | 14 | 33 | 8  | 47 
-| ASTGDEMv20_EU | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
-| EUDEMv11_WD   | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
-| EUDEMv11_UK   | 12 | 12 | 37 | 26 | 58 | 30 | 32 | 35 | 11 | 71 | 8  | 30 | 66 | 78 | 8  | 26 | 24 | 24 | 8  | 16 | 13 | 32 | 9  | 35 
-| EUDEMv11_EU   | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
+| No. of Location | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
+| --------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+| ASTGDEMv20_WD   | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
+| ASTGDEMv20_UK   | 14 | 14 | 36 | 25 | 60 | 37 | 33 | 40 | 20 | 68 | 12 | 25 | 62 | 59 | 15 | 18 | 22 | 22 | 15 | 21 | 14 | 33 | 8  | 47 
+| ASTGDEMv20_EU   | 18 | 18 | 38 | 40 | 65 | 26 | 35 | 31 | 17 | 79 | 13 | 41 | 62 | 82 | 9  | 13 | 31 | 31 | 15 | 22 | 24 | 40 | 8  | 40 
+| EUDEMv11_WD     | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
+| EUDEMv11_UK     | 12 | 12 | 37 | 26 | 58 | 30 | 32 | 35 | 11 | 71 | 8  | 30 | 66 | 78 | 8  | 26 | 24 | 24 | 8  | 16 | 13 | 32 | 9  | 35 
+| EUDEMv11_EU     | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
 
 <!--
 - **Elevation of 5 Locations in London**
@@ -191,4 +191,4 @@ The directory of source DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 25/03/2019</i>
+<i>Last updated: 31/03/2019</i>
