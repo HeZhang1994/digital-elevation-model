@@ -121,9 +121,9 @@ The directory of source DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
-3. To process **ASTERGDEMv2.0** DEMs, run `run_ipyDEM_London_ASTGDEMv20.py`.
+3. To process **ASTERGDEMv2.0** DEMs, run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
 
-4. To process **EUDEMv1.1** DEM, run `run_ipyDEM_London_EUDEMv11.py`.
+4. To process **EUDEMv1.1** DEM, run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
 
 ## Results
 
@@ -192,4 +192,4 @@ The directory of source DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 31/03/2019</i>
+<i>Last updated: 01/04/2019</i>
