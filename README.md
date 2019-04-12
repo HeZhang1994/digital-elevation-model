@@ -55,7 +55,7 @@ EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-de
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-The following procedures of installing **GDAL** for Python are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
 1. Install **GDAL Development Libraries** and export environment variables for the compiler in Terminal.
 ```bash
@@ -192,4 +192,4 @@ The directory of source DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 01/04/2019</i>
+<i>Last updated: 12/04/2019</i>
