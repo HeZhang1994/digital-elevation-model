@@ -188,8 +188,8 @@ The directory of source DEMs is shown in the following figure.
 
 <br>
 
-<i>Please star this repository if you found its content useful. Thank you very much.</i>
+<i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
 
-<i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
+<i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
 <i>Last updated: 12/04/2019</i>
