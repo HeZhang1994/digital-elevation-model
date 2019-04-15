@@ -29,8 +29,8 @@
 | 专业术语                                    | 缩写          | 备注 
 | ------------------------------------------ | ------------ | ------ 
 | Digital Elevation Model 数字高程模型         | DEM          | - 
-| Geographic Coordinate System 地理坐标系      | GCS          | 三维椭球面的经度，纬度和海拔 
-| Projected Coordinate System 投影坐标系       | PCS          | 二维平面的横坐标，纵坐标和海拔 
+| Geographic Coordinate System 地理坐标系      | GCS          | 三维椭球面，[经度，纬度，海拔] 
+| Projected Coordinate System 投影坐标系       | PCS          | 二维平面，[横坐标，纵坐标，海拔] 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | 数字高程模型的文件格式 
 | European Petroleum Survey Group            | EPSG         | EPSG代码用于唯一鉴别不同的GCS和PCS 
 | 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, 参考椭球面为地球 
