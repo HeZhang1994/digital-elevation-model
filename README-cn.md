@@ -7,7 +7,7 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-基于**Python**实现的变换，投影，转换和可视化**数字高程模型**（**ASTERGDEMv2.0** ~30m和**EUDEMv1.1** ~25m）以及读取给定位置的海拔值。
+基于**Python**实现的变换，投影和可视化**数字高程模型**（**ASTERGDEMv2.0** ~30m和**EUDEMv1.1** ~25m）以及读取给定位置的海拔值。
 
 ## 目录
 
