@@ -13,7 +13,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 - [Terms and Abbreviations](#terms-and-abbreviations)
 - [Functions](#functions)
-- [Data](#data)
+- [DEM Source Data](#dem-source-data)
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
 - [Dependencies](#dependencies)
@@ -52,7 +52,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 - **Reading** elevation of given locations from DEM in GCS.
 
-## Data
+## DEM Source Data
 
 ### ASTERGDEM
 
