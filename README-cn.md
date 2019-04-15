@@ -9,7 +9,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
 
-基于**Python**实现的变换，投影和可视化**数字高程模型**以及读取给定位置的海拔值。
+基于**Python**实现的变换，投影，转换和可视化**数字高程模型**以及读取给定位置的海拔值。
 
 ## 目录
 
@@ -34,7 +34,7 @@
 | Geographic Coordinate System 地理坐标系      | GCS          | 三维椭球面，[经度，纬度，海拔] 
 | Projected Coordinate System 投影坐标系       | PCS          | 二维平面，[横坐标，纵坐标，海拔] 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | 数字高程模型的文件格式 
-| European Petroleum Survey Group            | EPSG         | EPSG代码用于唯一鉴别不同的GCS和PCS 
+| European Petroleum Survey Group            | EPSG         | EPSG代码用于识别不同的GCS和PCS 
 | 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, 参考椭球面为地球 
 | Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
 | 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, 参考椭球面为英国 
@@ -46,13 +46,13 @@
 
 - **变换**DEM的GCS（例如，从WGS-84变换为WGS-84）。
 
-- **投影**GCS的DEM至对应的PCS（例如，从WGS-84/OSGB-36投影至Pseudo Mercator/BNG）。
+- **投影**GCS下的DEM至对应的PCS（例如，从WGS-84/OSGB-36投影至Pseudo Mercator/BNG）。
 
 - **转换**DEM的PCS（例如，从LAEA转换为ETRS-89）。
 
-- **可视化**PCS的DEM为二维图像。
+- **可视化**PCS下的DEM为二维图像。
 
-- **读取**GCS的DEM的给定位置海拔值。
+- **读取**GCS下的DEM的给定位置的海拔值。
 
 ## 数字高程模型数据
 
@@ -73,7 +73,7 @@ EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-以下安装**GDAL**的步骤1-2概括自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
+以下安装**GDAL**的步骤（1-2）总结自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
 
 1. 在终端安装**GDAL Development Libraries**并将环境变量导出至编译器。
 ```bash
@@ -88,9 +88,9 @@ $ export C_INCLUDE_PATH=/usr/include/gdal
 $ pip install GDAL
 ```
 
-如果安装过程中出现*error*: `cpl_vsi_error.h: No such file or directory`，请尝试如下安装步骤。
+如果安装过程中出现*error*：`cpl_vsi_error.h: No such file or directory`，请尝试如下安装步骤。
 
-3. 在终端检查**GDAL Python Libraries**所需的版本信息。
+3. 在终端查看**GDAL Python Libraries**的版本信息。
 ```bash
 $ gdal-config --version
 ```
@@ -115,7 +115,7 @@ $ cd path/of/downloaded/gdal/package
 ~$ python setup.py install
 ```
 
-6. 在Python中运行`>>> from osgeo import gdal`。如果没有报错，则安装完成。
+6. 完成上述步骤后，在Python中运行`>>> from osgeo import gdal`。如果没有报错，则安装完成。
 
 ## ASTERGDEM处理流程
 
@@ -135,7 +135,7 @@ $ cd path/of/downloaded/gdal/package
 
    2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
 
-原始DEM文件目录如下图所示。
+原始DEM文件的目录列表如下图所示。
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
@@ -158,7 +158,7 @@ $ cd path/of/downloaded/gdal/package
 
 ### 伦敦海拔
 
-- 伦敦24个位置的海拔值（米）。
+- 伦敦24个位置的海拔值（米）
 
 | No. of Location | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
 | --------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
