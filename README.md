@@ -7,6 +7,8 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
+[*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
+
 This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading the elevation of given locations.
 
 ## Table of Contents
@@ -189,7 +191,5 @@ The directory of source DEMs is shown in the following figure.
 <br>
 
 <i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
-
-<i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
 <i>Last updated: 15/04/2019</i>
