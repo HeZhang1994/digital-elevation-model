@@ -18,9 +18,9 @@
   - [EUDEM](#eudem)
 - [依赖项](#依赖项)
 - [ASTERGDEM处理流程](#ASTERGDEM处理流程)
-- [使用](#使用)
+- [使用方法](#使用方法)
 - [结果](#结果)
-  - [伦敦二维数字高程模型图像](#伦敦二维数字高程模型图像)
+  - [伦敦数字高程模型图像](#伦敦数字高程模型图像)
   - [伦敦海拔值](#伦敦海拔值)
 - [参考](#参考)
 
@@ -119,7 +119,7 @@ $ cd path/of/downloaded/gdal/package
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_Process_Pipeline.png" height="550">
 
-## 使用
+## 使用方法
 
 1. 准备**ASTERGDEMv2.0**的原始DEM。
 
@@ -143,15 +143,15 @@ $ cd path/of/downloaded/gdal/package
 
 ## 结果
 
-### 伦敦二维数字高程模型图像
+### 伦敦数字高程模型图像
 
-- **Pseudo Mercator**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
+- **Pseudo Mercator**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- **BNG**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
+- **BNG**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- **LAEA**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
+- **LAEA**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### 伦敦海拔值
