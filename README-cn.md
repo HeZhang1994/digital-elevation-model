@@ -16,7 +16,7 @@
 - [数字高程模型数据源](#数字高程模型数据源)
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
-- [依赖](#依赖)
+- [依赖项](#依赖项)
 - [ASTERGDEM处理流程](#ASTERGDEM处理流程)
 - [使用](#使用)
 - [结果](#结果)
@@ -42,29 +42,29 @@
 
 ## 功能
 
-- **Transforming** DEM from one GCS (e.g., WGS-84) to another GCS (e.g., OSGB-36).
+- **变换**DEM的GCS（例如，从WGS-84变换为WGS-84）。
 
-- **Projecting** DEM from one GCS (e.g., WGS-84/OSGB-36) to the related PCS (e.g., Pseudo Mercator/BNG).
+- **投影**GCS的DEM至对应的PCS（例如，从WGS-84/OSGB-36投影至Pseudo Mercator/BNG）。
 
-- **Converting** DEM from one PCS (e.g., LAEA) to the related GCS (e.g., ETRS-89).
+- **转换**DEM的PCS（例如，从LAEA转换为ETRS-89）。
 
-- **Visualizing** DEM in PCS as a 2D image.
+- **可视化**PCS的DEM为二维图像。
 
-- **Reading** elevation of given locations from DEM in GCS.
+- **读取**GCS的DEM的给定位置海拔值。
 
 ## 数字高程模型数据源
 
 ### ASTERGDEM
 
-ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
+ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/
 
-See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed introduction and user guide (recommended).
+关于详细的介绍和用户指南，推荐参考[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf)。
 
 ### EUDEM
 
-EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
-## 依赖
+## 依赖项
 
 * __matplotlib 3.0.2__
 * __numpy 1.15.4__
