@@ -21,7 +21,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Usage](#usage)
 - [Results](#results)
   - [2D DEM Images of London](#2d-dem-images-of-london)
-  - [Elevation](#elevation)
+  - [Elevation of London](#elevation-of-london)
 - [References](#references)
 
 ## Terms and Abbreviations
@@ -154,7 +154,7 @@ The directory of source DEMs is shown in the following figure.
 - The 2D ASTERGDEMv2.0 DEM Image of **LAEA** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
-### Elevation
+### Elevation of London
 
 - The elevation of 24 locations in London (meters).
 
@@ -192,4 +192,4 @@ The directory of source DEMs is shown in the following figure.
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 12/04/2019</i>
+<i>Last updated: 15/04/2019</i>
