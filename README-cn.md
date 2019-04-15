@@ -32,12 +32,12 @@
 | Geographic Coordinate System 地理坐标系      | GCS          | 三维椭球面的经度，纬度和海拔 
 | Projected Coordinate System 投影坐标系       | PCS          | 二维平面的横坐标，纵坐标和海拔 
 | Georeferenced Tagged Image File Format     | GeoTIFF      | 数字高程模型的文件格式 
-| European Petroleum Survey Group            | EPSG         | EPSG代码用于唯一鉴别不同的GCSs和PCSs 
+| European Petroleum Survey Group            | EPSG         | EPSG代码用于唯一鉴别不同的GCS和PCS 
 | 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, 参考椭球面为地球 
 | Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
 | 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, 参考椭球面为英国 
 | British National Grid                      | BNG          | **PCS** of OSGB-36, *EPSG-27700* 
-| 1989 European Terrestrial Reference System | ETRS-89      | **GCS**, *EPSG-4258*, 参考椭球面为欧洲/地球 
+| 1989 European Terrestrial Reference System | ETRS-89      | **GCS**, *EPSG-4258*, 参考椭球面为地球 
 | Lambert Azimuthal Equal-Area               | LAEA         | **PCS** of ETRS-89, *EPSG-3035* 
 
 ## 功能
@@ -71,7 +71,7 @@ EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+以下安装**GDAL**的步骤部分概括自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
 
 1. Install **GDAL Development Libraries** and export environment variables for the compiler in Terminal.
 ```bash
@@ -121,42 +121,42 @@ $ cd path/of/downloaded/gdal/package
 
 ## 使用
 
-1. Prepare **ASTERGDEMv2.0** source DEMs.
+1. 准备**ASTERGDEMv2.0**的原始DEM。
 
-   1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
+   1. 下载DEM文件`ASTGTM2_N51W001_dem.tif`和`ASTGTM2_N51E000_dem.tif`自[这里](https://earthexplorer.usgs.gov/)。
 
-   2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
+   2. 复制DEM文件到文件夹`DATA/DATA_ASTGDEMv20/EPSG4326_s/`。
 
-2. Prepare **EUDEMv1.1** source DEM.
+2. 准备**EUDEMv1.1**的原始DEM。
 
-   1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
+   1. 下载DEM文件`eu_dem_v11_E30N30.tif`自[这里](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1)。
 
-   2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
+   2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
 
-The directory of source DEMs is shown in the following figure.
+原始DEM文件目录如下图所示。
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
-3. To process **ASTERGDEMv2.0** DEMs, run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
+3. 处理**ASTERGDEMv2.0**的DEM数据，运行`run_DEM_London_ASTGDEMv20.py`或`run_DEM_London_ASTGDEMv20.ipynb`。
 
-4. To process **EUDEMv1.1** DEM, run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
+4. 处理**EUDEMv1.1**的DEM数据，运行run `run_DEM_London_EUDEMv11.py`或`run_DEM_London_EUDEMv11.ipynb`。
 
 ## 结果
 
 ### 伦敦二维数字高程模型图像
 
-- The 2D ASTERGDEMv2.0 DEM Image of **Pseudo Mercator** PCS
+- **Pseudo Mercator**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- The 2D ASTERGDEMv2.0 DEM Image of **BNG** PCS
+- **BNG**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- The 2D ASTERGDEMv2.0 DEM Image of **LAEA** PCS
+- **LAEA**投影坐标系下的二维ASTERGDEMv2.0数字高程模型图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### 伦敦海拔值
 
-- The elevation of 24 locations in London (meters).
+- 伦敦24个位置的海拔值（米）。
 
 | No. of Location | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 
 | --------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
