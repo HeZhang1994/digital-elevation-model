@@ -11,6 +11,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 ## Table of Contents
 
+- [Terms and Abbreviations](#terms-and-abbreviations)
 - [Functions](#functions)
 - [Data](#data)
   - [ASTERGDEM](#astergdem)
@@ -21,8 +22,23 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Results](#results)
   - [2D DEM Images of London](#2d-dem-images-of-london)
   - [Elevation](#elevation)
-- [Terms and Abbreviations](#terms-and-abbreviations)
 - [References](#references)
+
+## Terms and Abbreviations
+
+| Term                                       | Abbreviation | Remark 
+| ------------------------------------------ | ------------ | ------ 
+| Digital Elevation Model                    | DEM          | - 
+| Geographic Coordinate System               | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
+| Projected Coordinate System                | PCS          | [X-coor, Y-coor, Elevation] on 2D plane 
+| Georeferenced Tagged Image File Format     | GeoTIFF      | Data Format of DEM (e.g., .tif) 
+| European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
+| 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, approx. the ellipsoid of Earth 
+| Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
+| 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, approx. the ellipsoid of Britain 
+| British National Grid                      | BNG          | **PCS** of OSGB-36, *EPSG-27700* 
+| 1989 European Terrestrial Reference System | ETRS-89      | **GCS**, *EPSG-4258*, approx. the ellipsoid of Europe 
+| Lambert Azimuthal Equal-Area               | LAEA         | **PCS** of ETRS-89, *EPSG-3035* 
 
 ## Functions
 
@@ -161,22 +177,6 @@ The directory of source DEMs is shown in the following figure.
 | 4   | 51.45635 | 0.040725  | 41 (+13)                | 25 (-3)                  | 28 
 | 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
 -->
-
-## Terms and Abbreviations
-
-| Term                                       | Abbreviation | Remark 
-| ------------------------------------------ | ------------ | ------ 
-| Digital Elevation Model                    | DEM          | - 
-| Geographic Coordinate System               | GCS          | [Longitude, Latitude, Elevation] on 3D ellipsoid 
-| Projected Coordinate System                | PCS          | [X-coor, Y-coor, Elevation] on 2D plane 
-| Georeferenced Tagged Image File Format     | GeoTIFF      | Data Format of DEM (e.g., .tif) 
-| European Petroleum Survey Group            | EPSG         | EPSG codes identify different GCSs and PCSs 
-| 1984 World Geodetic System                 | WGS-84       | **GCS**, *EPSG-4326*, approx. the ellipsoid of Earth 
-| Pseudo Mercator (Web Mercator)             | -            | **PCS** of WGS-84, *EPSG-3857* 
-| 1936 Ordnance Survey Great Britain         | OSGB-36      | **GCS**, *EPSG-4277*, approx. the ellipsoid of Britain 
-| British National Grid                      | BNG          | **PCS** of OSGB-36, *EPSG-27700* 
-| 1989 European Terrestrial Reference System | ETRS-89      | **GCS**, *EPSG-4258*, approx. the ellipsoid of Europe 
-| Lambert Azimuthal Equal-Area               | LAEA         | **PCS** of ETRS-89, *EPSG-3035* 
 
 ## References
 
