@@ -9,7 +9,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
 
-This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading the elevation of given locations.
+This is a **Python** implementation of transforming, projecting, converting and visualizing **Digital Elevation Models** (**ASTERGDEMv2.0** ~30m and **EUDEMv1.1** ~25m) as well as reading their elevation of given locations.
 
 ## Table of Contents
 
