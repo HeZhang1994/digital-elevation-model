@@ -52,7 +52,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 - **Visualizing** DEM in PCS as a 2D image.
 
-- **Reading** elevation of given locations from DEM in GCS.
+- **Reading** the elevation of given locations from DEM in GCS.
 
 ## DEM Data
 
@@ -73,7 +73,7 @@ EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-de
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-The following procedures for installing **GDAL** are partly recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
+The following procedures (1-2) for installing **GDAL** are recapitulated from [mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
 1. Install **GDAL Development Libraries** and export environment variables for the compiler in Terminal.
 ```bash
@@ -115,7 +115,7 @@ $ cd path/of/downloaded/gdal/package
 ~$ python setup.py install
 ```
 
-6. Try `>>> from osgeo import gdal` in Python. If no error occurs, the installation has accomplished.
+6. Run `>>> from osgeo import gdal` in Python. If no error occurs, the installation is accomplished.
 
 ## Pipeline of Processing ASTERGDEM
 
