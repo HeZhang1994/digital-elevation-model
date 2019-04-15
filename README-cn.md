@@ -71,9 +71,9 @@ EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-以下安装**GDAL**的步骤部分概括自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
+以下安装**GDAL**的步骤1-2概括自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
 
-1. Install **GDAL Development Libraries** and export environment variables for the compiler in Terminal.
+1. 在终端安装**GDAL Development Libraries**并将环境变量导出至编译器。
 ```bash
 $ sudo apt-get install libgdal-dev
 
@@ -81,21 +81,21 @@ $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 $ export C_INCLUDE_PATH=/usr/include/gdal
 ```
 
-2. Install **GDAL Python Libraries** in Terminal.
+2. 在终端安装**GDAL Python Libraries**。
 ```bash
 $ pip install GDAL
 ```
 
-If it comes with the *error*: `cpl_vsi_error.h: No such file or directory`, please try the following procedures.
+如果安装过程中出现*error*: `cpl_vsi_error.h: No such file or directory`，请尝试如下安装步骤。
 
-3. Check the required version of **GDAL Python Libraries** in Terminal.
+3. 在终端检查**GDAL Python Libraries**所需的版本信息。
 ```bash
 $ gdal-config --version
 ```
 
-4. Download the source file (e.g., `gdal-1.11.3.tar.gz`) of the related GDAL version (e.g., `1.11.3`) from [here](http://trac.osgeo.org/gdal/wiki/DownloadSource).
+4. 下载对应GDAL版本（例如，`1.11.3`）的源文件（例如，`gdal-1.11.3.tar.gz`）自[这里](http://trac.osgeo.org/gdal/wiki/DownloadSource)。
 
-5. Manually install **GDAL Python Libraries** in Terminal.
+5. 在终端手动安装**GDAL Python Libraries**。
 ```bash
 $ cd path/of/downloaded/gdal/package
 
@@ -113,7 +113,7 @@ $ cd path/of/downloaded/gdal/package
 ~$ python setup.py install
 ```
 
-6. Try `>>> from osgeo import gdal` in Python. If no error occurs, the installation has accomplished.
+6. 在Python中运行`>>> from osgeo import gdal`。如果没有报错，则安装完成。
 
 ## ASTERGDEM处理流程
 
@@ -187,8 +187,6 @@ $ cd path/of/downloaded/gdal/package
 [3] [CSDN Blog](https://blog.csdn.net/liuhailiuhai12/article/details/75007417)
 
 <br>
-
-<i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
