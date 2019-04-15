@@ -7,6 +7,8 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
+[*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
+
 基于**Python**实现的变换，投影和可视化**数字高程模型**以及读取给定位置的海拔值。
 
 ## 目录
