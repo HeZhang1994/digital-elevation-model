@@ -15,15 +15,15 @@
 
 - [专业术语和缩写](#专业术语和缩写)
 - [功能](#术语和缩写)
-- [数字高程模型数据源](#数字高程模型数据源)
+- [数字高程模型数据](#数字高程模型数据)
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
 - [依赖项](#依赖项)
 - [ASTERGDEM处理流程](#ASTERGDEM处理流程)
 - [使用方法](#使用方法)
 - [结果](#结果)
-  - [伦敦数字高程模型图像](#伦敦数字高程模型图像)
-  - [伦敦海拔值](#伦敦海拔值)
+  - [伦敦二维数字高程模型图像](#伦敦二维数字高程模型图像)
+  - [伦敦海拔](#伦敦海拔)
 - [参考](#参考)
 
 ## 专业术语和缩写
@@ -54,7 +54,7 @@
 
 - **读取**GCS的DEM的给定位置海拔值。
 
-## 数字高程模型数据源
+## 数字高程模型数据
 
 ### ASTERGDEM
 
@@ -145,18 +145,18 @@ $ cd path/of/downloaded/gdal/package
 
 ## 结果
 
-### 伦敦数字高程模型图像
+### 伦敦二维数字高程模型图像
 
-- **Pseudo Mercator**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
+- **Pseudo Mercator**投影坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- **BNG**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
+- **BNG**投影坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- **LAEA**投影坐标系下的ASTERGDEMv2.0数字高程模型图像 
+- **LAEA**投影坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
-### 伦敦海拔值
+### 伦敦海拔
 
 - 伦敦24个位置的海拔值（米）。
 
