@@ -75,7 +75,7 @@
 * __gdal (osgeo) 1.11.3__
 * __pandas 0.23.4__
 
-以下安装**GDAL**的步骤（1-2）总结自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
+以下**GDAL**的安装步骤（1-2）总结自[mothergeo](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)。
 
 1. 在终端安装**GDAL Development Libraries**并将环境变量导出至编译器。
 ```bash
