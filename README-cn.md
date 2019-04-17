@@ -62,7 +62,7 @@
 
 - ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/
 
-- 关于ASTERGDEM详细的介绍和使用指南，参考[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf)。
+- 关于ASTERGDEM的详细介绍和使用指南，参见[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf)。
 
 ### EUDEM
 
@@ -137,7 +137,7 @@ $ cd path/of/downloaded/gdal/package
 
 3. 运行`run_DEM_London_ASTGDEMv20.py`或`run_DEM_London_ASTGDEMv20.ipynb`。
 
-4. 运行`run_DEM_London_ASTGDEMv20.py`的日志记录与`Log_run_pyDEM_ASTGDEMv20.txt`。
+4. 运行`run_DEM_London_ASTGDEMv20.py`的日志记录于`Log_run_pyDEM_ASTGDEMv20.txt`。
 
 ### EUDEM的使用方法
 
