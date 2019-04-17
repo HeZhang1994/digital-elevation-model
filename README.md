@@ -58,13 +58,13 @@ This is a **Python** implementation of transforming, projecting, converting and 
 
 ### ASTERGDEM
 
-ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
+- ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
 
-See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed introduction and user guide (recommended).
+- See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed introduction and user guide (recommended).
 
 ### EUDEM
 
-EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+- EUDEMv1.1 download link: https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## Dependencies
 
@@ -169,17 +169,6 @@ The directory of source DEMs is shown in the following figure.
 | EUDEMv11_UK     | 12 | 12 | 37 | 26 | 58 | 30 | 32 | 35 | 11 | 71 | 8  | 30 | 66 | 78 | 8  | 26 | 24 | 24 | 8  | 16 | 13 | 32 | 9  | 35 
 | EUDEMv11_EU     | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
 
-<!--
-- **Elevation of 5 Locations in London**
-| No. | Latitude | Longitude | Elev. in WGS-84 (m)     | Elev. in OSGB-36 (m)     | Elev. in Google Earth (m) 
-| --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
-| 1   | 51.52104 | -0.21349  | 31 (+7)                 | 22 (-1)                  | 23 
-| 2   | 51.52770 | -0.12905  | 40 (+0)                 | 25 (-15)                 | 40 (Building/Road) 
-| 3   | 51.42525 | -0.34560  | 24 (+12)                | 14 (+2)                  | 12 
-| 4   | 51.45635 | 0.040725  | 41 (+13)                | 25 (-3)                  | 28 
-| 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
--->
-
 ## References
 
 [1] [EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)](http://lyzidiamond.com/posts/4326-vs-3857)
@@ -191,5 +180,3 @@ The directory of source DEMs is shown in the following figure.
 <br>
 
 <i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
-
-<i>Last updated: 15/04/2019</i>
