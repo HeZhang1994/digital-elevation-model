@@ -21,6 +21,8 @@
 - [依赖项](#依赖项)
 - [ASTERGDEM处理流程](#ASTERGDEM处理流程)
 - [使用方法](#使用方法)
+  - [ASTERGDEM的使用方法](#astergdem的使用方法)
+  - [EUDEM的使用方法](#astergdem的使用方法)
 - [结果](#结果)
   - [伦敦二维数字高程模型图像](#伦敦二维数字高程模型图像)
   - [伦敦海拔](#伦敦海拔)
@@ -58,13 +60,13 @@
 
 ### ASTERGDEM
 
-ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/
+- ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/
 
-关于详细的介绍和用户指南，推荐参考[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf)。
+- 关于ASTERGDEM详细的介绍和使用指南，参考[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf)。
 
 ### EUDEM
 
-EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
+- EUDEMv1.1下载链接：https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1
 
 ## 依赖项
 
@@ -123,6 +125,15 @@ $ cd path/of/downloaded/gdal/package
 
 ## 使用方法
 
+原始DEM文件的目录列表如下图所示。
+
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
+
+### ASTERGDEM的使用方法
+
+### EUDEM的使用方法
+
+
 1. 准备**ASTERGDEMv2.0**的原始DEM。
 
    1. 下载DEM文件`ASTGTM2_N51W001_dem.tif`和`ASTGTM2_N51E000_dem.tif`自[这里](https://earthexplorer.usgs.gov/)。
@@ -135,9 +146,6 @@ $ cd path/of/downloaded/gdal/package
 
    2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
 
-原始DEM文件的目录列表如下图所示。
-
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
 3. 处理**ASTERGDEMv2.0**的DEM数据，运行`run_DEM_London_ASTGDEMv20.py`或`run_DEM_London_ASTGDEMv20.ipynb`。
 
