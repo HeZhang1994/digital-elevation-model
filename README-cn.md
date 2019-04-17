@@ -8,7 +8,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
 
-基于**Python**实现的变换，投影和可视化**数字高程模型**（**ASTERGDEMv2.0** ~30m和**EUDEMv1.1** ~25m）以及读取其给定位置的海拔值。
+基于**Python**实现的变换，投影和可视化**数字高程模型**（**ASTERGDEM**和**EUDEM**）以及读取其给定位置的海拔值。
 
 ## 目录
 
