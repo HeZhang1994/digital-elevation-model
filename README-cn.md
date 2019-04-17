@@ -91,7 +91,7 @@ $ export C_INCLUDE_PATH=/usr/include/gdal
 $ pip install GDAL
 ```
 
-如果出现*error*：`cpl_vsi_error.h: No such file or directory`，请尝试下述步骤。
+如果出现*错误*：`cpl_vsi_error.h: No such file or directory`，请尝试下述步骤。
 
 3. 在终端查看**GDAL Python Libraries**所需的版本。
 ```bash
