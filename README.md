@@ -129,7 +129,7 @@ The directory of source DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
-### Procedures for processing ASTERGDEM
+### Usage of ASTERGDEM
 
 1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
 
@@ -139,7 +139,7 @@ The directory of source DEMs is shown in the following figure.
 
 4. The log of running `run_DEM_London_ASTGDEMv20.py` can be seen in `Log_run_pyDEM_ASTGDEMv20.txt`.
 
-### Procedures for processing EUDEM
+### Usage of EUDEM
 
 1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
 
