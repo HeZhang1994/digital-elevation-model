@@ -1,6 +1,5 @@
 # 基于Python的数字高程模型
 
-<!--[![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]() or https://img.shields.io/badge/license-MIT-yellow.svg-->
 [![image](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HeZhang1994/digital-elevation-model/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
