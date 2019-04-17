@@ -123,25 +123,29 @@ $ cd path/of/downloaded/gdal/package
 
 ## Usage
 
-1. Prepare **ASTERGDEMv2.0** source DEMs.
+The directory of source DEMs is shown in the following figure.
+
+<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
+
+- Procedures for processing **ASTERGDEMv2.0** DEMs
 
    1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
 
    2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
+   
+   3. Run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
+   
+   4. The log of running `run_DEM_London_ASTGDEMv20.py` can be seen in `Log_run_pyDEM_ASTGDEMv20.txt`.
 
-2. Prepare **EUDEMv1.1** source DEM.
+- Procedures for processing **EUDEMv1.1** DEM
 
    1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
 
    2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
-The directory of source DEMs is shown in the following figure.
-
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
-
-3. To process **ASTERGDEMv2.0** DEMs, run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
-
-4. To process **EUDEMv1.1** DEM, run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
+   3. Run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
+   
+   4. The log of running `run_DEM_London_EUDEMv11.py` can be seen in `Log_run_pyDEM_EUDEMv11.txt`.
 
 ## Results
 
