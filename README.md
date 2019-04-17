@@ -21,6 +21,8 @@ This is a **Python** implementation of transforming, projecting, converting and 
 - [Dependencies](#dependencies)
 - [Pipeline of Processing ASTERGDEM](#pipeline-of-processing-astergdem)
 - [Usage](#usage)
+  - [Procedures for Processing ASTERGDEM](#procedures-for-processing-astergdem)
+  - [Procedures for Processing EUDEM](#procedures-for-processing-eudem)
 - [Results](#results)
   - [2D DEM Images of London](#2d-dem-images-of-london)
   - [Elevation of London](#elevation-of-london)
@@ -127,25 +129,25 @@ The directory of source DEMs is shown in the following figure.
 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
 
-- Procedures for processing **ASTERGDEMv2.0** DEMs
+### Procedures for processing ASTERGDEM
 
-   1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
+1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
 
-   2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
-   
-   3. Run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
-   
-   4. The log of running `run_DEM_London_ASTGDEMv20.py` can be seen in `Log_run_pyDEM_ASTGDEMv20.txt`.
+2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
 
-- Procedures for processing **EUDEMv1.1** DEM
+3. Run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
 
-   1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
+4. The log of running `run_DEM_London_ASTGDEMv20.py` can be seen in `Log_run_pyDEM_ASTGDEMv20.txt`.
 
-   2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
+### Procedures for processing EUDEM
 
-   3. Run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
-   
-   4. The log of running `run_DEM_London_EUDEMv11.py` can be seen in `Log_run_pyDEM_EUDEMv11.txt`.
+1. Download DEM `eu_dem_v11_E30N30.tif` from [here](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1).
+
+2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
+
+3. Run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
+
+4. The log of running `run_DEM_London_EUDEMv11.py` can be seen in `Log_run_pyDEM_EUDEMv11.txt`.
 
 ## Results
 
