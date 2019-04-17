@@ -51,7 +51,7 @@ This is a **Python** implementation of transforming, projecting and visualizing 
 
 - **Converting** DEM from one PCS (e.g., LAEA) to the related GCS (e.g., ETRS-89).
 
-- **Visualizing** DEM in PCSs as 2D images.
+- **Visualizing** DEM in PCS as a 2D image.
 
 - **Reading** the elevation of given locations from DEM in GCS.
 
