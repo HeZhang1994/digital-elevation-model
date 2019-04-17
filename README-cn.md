@@ -98,7 +98,7 @@ $ pip install GDAL
 $ gdal-config --version
 ```
 
-4. 下载相应GDAL版本（例如，`1.11.3`）的源文件（例如，`gdal-1.11.3.tar.gz`）自[这里](http://trac.osgeo.org/gdal/wiki/DownloadSource)。
+4. 下载对应GDAL版本（例如，`1.11.3`）的源文件（例如，`gdal-1.11.3.tar.gz`）自[这里](http://trac.osgeo.org/gdal/wiki/DownloadSource)。
 
 5. 在终端手动安装**GDAL Python Libraries**。
 ```bash
