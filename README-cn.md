@@ -45,15 +45,15 @@
 
 ## 功能
 
-- **变换**GCS下DEM至其他GCS（例如，由WGS-84变换至WGS-84）。
+- **变换**地理坐标系下DEM至其他地理坐标系（例如，由WGS-84变换至WGS-84）。
 
-- **投影**GCS下的DEM至对应的PCS（例如，由OSGB-36投影至BNG）。
+- **投影**地理坐标系下的DEM至对应的地理坐标系（例如，由OSGB-36投影至BNG）。
 
-- **转换**PCS下的DEM至对应的GCS（例如，由LAEA转换至ETRS-89）。
+- **转换**地理坐标系下的DEM至对应的地理坐标系（例如，由LAEA转换至ETRS-89）。
 
-- **可视化**PCS下的DEM为二维图像。
+- **可视化**地理坐标系下的DEM为二维图像。
 
-- **读取**GCS下的DEM中给定位置的海拔值。
+- **读取**地理坐标系下的DEM中给定位置的海拔值。
 
 ## 数字高程模型数据
 
@@ -154,13 +154,13 @@ $ cd path/of/downloaded/gdal/package
 
 ### 伦敦二维数字高程模型图像
 
-- **Pseudo Mercator**PCS下的ASTERGDEMv2.0图像 
+- **Pseudo Mercator**地理坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- **BNG**PCS下的ASTERGDEMv2.0图像 
+- **BNG**地理坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- **LAEA**PCS下的ASTERGDEMv2.0图像 
+- **LAEA**地理坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### 伦敦海拔
