@@ -135,9 +135,9 @@ The directory of source DEMs is shown in the following figure.
 
 2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
 
-3. Run `run_DEM_London_ASTGDEMv20.py` or `run_DEM_London_ASTGDEMv20.ipynb`.
+3. Run `run_DEM_ASTGDEMv20.py` or `run_DEM_ASTGDEMv20.ipynb`.
 
-4. The log of running `run_DEM_London_ASTGDEMv20.py` can be seen in `Log_run_pyDEM_ASTGDEMv20.txt`.
+4. The log of running `run_DEM_ASTGDEMv20.py` can be seen in `Log_run_DEM_ASTGDEMv20.txt`.
 
 ### Usage of EUDEM
 
@@ -145,9 +145,9 @@ The directory of source DEMs is shown in the following figure.
 
 2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
-3. Run `run_DEM_London_EUDEMv11.py` or `run_DEM_London_EUDEMv11.ipynb`.
+3. Run `run_DEM_EUDEMv11.py` or `run_DEM_EUDEMv11.ipynb`.
 
-4. The log of running `run_DEM_London_EUDEMv11.py` can be seen in `Log_run_pyDEM_EUDEMv11.txt`.
+4. The log of running `run_DEM_EUDEMv11.py` can be seen in `Log_run_DEM_EUDEMv11.txt`.
 
 ## Results
 
