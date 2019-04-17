@@ -14,12 +14,12 @@
 ## 目录
 
 - [专业术语和缩写](#专业术语和缩写)
-- [功能](#术语和缩写)
+- [功能](#功能)
 - [数字高程模型数据](#数字高程模型数据)
   - [ASTERGDEM](#astergdem)
   - [EUDEM](#eudem)
 - [依赖项](#依赖项)
-- [ASTERGDEM处理流程](#ASTERGDEM处理流程)
+- [ASTERGDEM处理流程](#astergdem处理流程)
 - [使用方法](#使用方法)
   - [ASTERGDEM的使用方法](#astergdem的使用方法)
   - [EUDEM的使用方法](#astergdem的使用方法)
