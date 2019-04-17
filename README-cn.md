@@ -22,7 +22,7 @@
 - [ASTERGDEM处理流程](#astergdem处理流程)
 - [使用方法](#使用方法)
   - [ASTERGDEM的使用方法](#astergdem的使用方法)
-  - [EUDEM的使用方法](#astergdem的使用方法)
+  - [EUDEM的使用方法](#eudem的使用方法)
 - [结果](#结果)
   - [伦敦二维数字高程模型图像](#伦敦二维数字高程模型图像)
   - [伦敦海拔](#伦敦海拔)
@@ -131,25 +131,23 @@ $ cd path/of/downloaded/gdal/package
 
 ### ASTERGDEM的使用方法
 
+1. 下载DEM文件`ASTGTM2_N51W001_dem.tif`和`ASTGTM2_N51E000_dem.tif`自[这里](https://earthexplorer.usgs.gov/)。
+
+2. 复制DEM文件到文件夹`DATA/DATA_ASTGDEMv20/EPSG4326_s/`。
+
+3. 运行`run_DEM_London_ASTGDEMv20.py`或`run_DEM_London_ASTGDEMv20.ipynb`。
+
+4. 运行`run_DEM_London_ASTGDEMv20.py`的日志记录与`Log_run_pyDEM_ASTGDEMv20.txt`。
+
 ### EUDEM的使用方法
 
+1. 下载DEM文件`eu_dem_v11_E30N30.tif`自[这里](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1)。
 
-1. 准备**ASTERGDEMv2.0**的原始DEM。
+2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
 
-   1. 下载DEM文件`ASTGTM2_N51W001_dem.tif`和`ASTGTM2_N51E000_dem.tif`自[这里](https://earthexplorer.usgs.gov/)。
+3. 运行`run_DEM_London_EUDEMv11.py`或`run_DEM_London_EUDEMv11.ipynb`。
 
-   2. 复制DEM文件到文件夹`DATA/DATA_ASTGDEMv20/EPSG4326_s/`。
-
-2. 准备**EUDEMv1.1**的原始DEM。
-
-   1. 下载DEM文件`eu_dem_v11_E30N30.tif`自[这里](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1)。
-
-   2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
-
-
-3. 处理**ASTERGDEMv2.0**的DEM数据，运行`run_DEM_London_ASTGDEMv20.py`或`run_DEM_London_ASTGDEMv20.ipynb`。
-
-4. 处理**EUDEMv1.1**的DEM数据，运行run `run_DEM_London_EUDEMv11.py`或`run_DEM_London_EUDEMv11.ipynb`。
+4. 运行`run_DEM_London_EUDEMv11.py`的日志记录于`Log_run_pyDEM_EUDEMv11.txt`。
 
 ## 结果
 
@@ -177,17 +175,6 @@ $ cd path/of/downloaded/gdal/package
 | EUDEMv11_UK     | 12 | 12 | 37 | 26 | 58 | 30 | 32 | 35 | 11 | 71 | 8  | 30 | 66 | 78 | 8  | 26 | 24 | 24 | 8  | 16 | 13 | 32 | 9  | 35 
 | EUDEMv11_EU     | 12 | 12 | 37 | 30 | 61 | 25 | 29 | 36 | 11 | 66 | 11 | 31 | 64 | 79 | 7  | 27 | 25 | 25 | 14 | 15 | 13 | 32 | 5  | 36 
 
-<!--
-- **Elevation of 5 Locations in London**
-| No. | Latitude | Longitude | Elev. in WGS-84 (m)     | Elev. in OSGB-36 (m)     | Elev. in Google Earth (m) 
-| --- | -------- | --------- | ----------------------- | ------------------------ | ----------------------------- 
-| 1   | 51.52104 | -0.21349  | 31 (+7)                 | 22 (-1)                  | 23 
-| 2   | 51.52770 | -0.12905  | 40 (+0)                 | 25 (-15)                 | 40 (Building/Road) 
-| 3   | 51.42525 | -0.34560  | 24 (+12)                | 14 (+2)                  | 12 
-| 4   | 51.45635 | 0.040725  | 41 (+13)                | 25 (-3)                  | 28 
-| 5   | 51.45258 | 0.070766  | 79 (+14)                | 68 (+3)                  | 65 
--->
-
 ## 参考
 
 [1] [EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)](http://lyzidiamond.com/posts/4326-vs-3857)
@@ -199,5 +186,3 @@ $ cd path/of/downloaded/gdal/package
 <br>
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
-
-<i>Last updated: 15/04/2019</i>
