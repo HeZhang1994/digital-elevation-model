@@ -61,7 +61,7 @@ This is a **Python** implementation of transforming, projecting and visualizing 
 
 - ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
 
-- See [Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv2.pdf) for detailed introduction and user guide (recommended).
+- See [Introduction of ASTGDEMv20.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv20.pdf) for detailed introduction and user guide (recommended).
 
 ### EUDEM
 
