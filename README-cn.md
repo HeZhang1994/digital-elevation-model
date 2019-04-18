@@ -136,7 +136,7 @@ $ cd path/of/downloaded/gdal/package
 
 2. 复制DEM文件到文件夹`DATA/DATA_ASTGDEMv20/EPSG4326_s/`。
 
-3. 处理ASTERGDEMv2.0的数字高程模型，运行`run_DEM_ASTGDEMv20.py`或`run_DEM_ASTGDEMv20.ipynb`。
+3. 运行`run_DEM_ASTGDEMv20.py`或`run_DEM_ASTGDEMv20.ipynb`，处理ASTERGDEMv2.0的数字高程模型。
 
 4. 运行`run_DEM_ASTGDEMv20.py`的日志可以参见`Log_run_DEM_ASTGDEMv20.txt`。
 
@@ -146,7 +146,7 @@ $ cd path/of/downloaded/gdal/package
 
 2. 复制DEM文件到文件夹`DATA/DATA_EUDEMv11/`并重命名为`EUDEMv11_EPSG3035.tif`。
 
-3. 处理EUDEMv1.1的数字高程模型，运行`run_DEM_EUDEMv11.py`或`run_DEM_EUDEMv11.ipynb`。
+3. 运行`run_DEM_EUDEMv11.py`或`run_DEM_EUDEMv11.ipynb`，处理EUDEMv1.1的数字高程模型。
 
 4. 运行`run_DEM_EUDEMv11.py`的日志可以参见`Log_run_DEM_EUDEMv11.txt`。
 
