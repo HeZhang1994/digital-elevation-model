@@ -1,4 +1,4 @@
-# Python for Processing Digital Elevation Model
+# Python for Processing Digital Elevation Models
 
 [![image](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HeZhang1994/digital-elevation-model/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
