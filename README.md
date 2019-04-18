@@ -136,7 +136,7 @@ The directory of source DEMs is shown in the following figure.
 
 2. Copy DEMs to the folder `DATA/DATA_ASTGDEMv20/EPSG4326_s/`.
 
-3. To process ASTREGDEMv2.0 DEMs, run `run_DEM_ASTGDEMv20.py` or `run_DEM_ASTGDEMv20.ipynb`.
+3. To process ASTREGDEMv2.0 DEMs, run `run_DEM_ASTGDEMv20.py` or `run_DEM_ASTGDEMv20_ipy.ipynb`.
 
 4. The log of running `run_DEM_ASTGDEMv20.py` can be seen in `Log_run_DEM_ASTGDEMv20.txt`.
 
@@ -146,7 +146,7 @@ The directory of source DEMs is shown in the following figure.
 
 2. Copy DEM to the folder `DATA/DATA_EUDEMv11/` and rename it as `EUDEMv11_EPSG3035.tif`.
 
-3. To process EUDEMv1.1 DEM, run `run_DEM_EUDEMv11.py` or `run_DEM_EUDEMv11.ipynb`.
+3. To process EUDEMv1.1 DEM, run `run_DEM_EUDEMv11.py` or `run_DEM_EUDEMv11_ipy.ipynb`.
 
 4. The log of running `run_DEM_EUDEMv11.py` can be seen in `Log_run_DEM_EUDEMv11.txt`.
 
