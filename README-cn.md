@@ -126,9 +126,21 @@ $ cd path/of/downloaded/gdal/package
 
 ## 使用方法
 
-原始DEM文件的目录列表如下图所示。
+原始DEM文件的目录列表如下。
+<pre><code>
+└── Data/
+    ├── DATA_ASTGDEMv20/
+    │   └── EPSG4326_s/
+    │       ├── ASTGTM2_N51W001_dem.tif
+    │       └── ASTGTM2_N51E000_dem.tif
+    └── DATA_EUDEMv11/
+        └── EUDEMv11_EPSG3035.tif
+</code></pre>
 
+<!--
+原始DEM文件的目录列表如下图所示。
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
+-->
 
 ### ASTERGDEM的使用方法
 
