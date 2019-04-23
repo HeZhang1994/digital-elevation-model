@@ -126,9 +126,21 @@ $ cd path/of/downloaded/gdal/package
 
 ## Usage
 
-The directory of source DEMs is shown in the following figure.
+The directory of source DEMs is shown as below.
+<pre><code>
+└── Data/
+    ├── DATA_ASTGDEMv20/
+    │   └── EPSG4326_s/
+    │       ├── ASTGTM2_N51W001_dem.tif
+    │       └── ASTGTM2_N51E000_dem.tif
+    └── DATA_EUDEMv11/
+        └── EUDEMv11_EPSG3035.tif
+</code></pre>
 
+<!--
+The directory of source DEMs is shown in the following figure.
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
+-->
 
 ### Usage of ASTERGDEM
 
