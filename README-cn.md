@@ -4,7 +4,6 @@
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
-[![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
 [*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
 
@@ -164,7 +163,7 @@ $ cd path/of/downloaded/gdal/package
 
 ## 结果
 
-### 伦敦二维数字高程模型图像
+### 伦敦数字高程模型图像
 
 - **Pseudo Mercator**投影坐标系下的ASTERGDEMv2.0图像 
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
