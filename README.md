@@ -4,7 +4,6 @@
 [![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
-[![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
 [*English Version*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md)
 
@@ -164,20 +163,20 @@ The directory of source DEMs is shown in the following figure.
 
 ## Results
 
-### 2D DEM Images of London
+### DEM Images of London
 
-- The 2D DEM Image of ASTERGDEMv2.0 in **Pseudo Mercator** PCS
+- The DEM Image of ASTERGDEMv2.0 in **Pseudo Mercator** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_WD.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 in **BNG** PCS
+- The DEM Image of ASTERGDEMv2.0 in **BNG** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_UK.png" height="300">
 
-- The 2D DEM Image of ASTERGDEMv2.0 in **LAEA** PCS
+- The DEM Image of ASTERGDEMv2.0 in **LAEA** PCS
 <img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/ASTGDEMv20_EU.png" height="300">
 
 ### Elevation of London
 
-- The elevation of 24 locations in London (meters)
+- The elevation of 24 locations in London (meter)
 
 | No. of Location | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24
 | --------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
