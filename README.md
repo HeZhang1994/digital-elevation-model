@@ -22,7 +22,7 @@ This is a **Python** implementation of transforming, projecting, converting and 
   - [Usage of ASTERGDEM](#usage-of-astergdem)
   - [Usage of EUDEM](#usage-of-eudem)
 - [Results](#results)
-  - [2D DEM Images of London](#2d-dem-images-of-london)
+  - [DEM Images of London](#dem-images-of-london)
   - [Elevation of London](#elevation-of-london)
 - [References](#references)
 
