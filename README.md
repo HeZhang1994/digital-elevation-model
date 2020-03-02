@@ -136,11 +136,6 @@ The directory of source DEMs is shown as below.
         └── EUDEMv11_EPSG3035.tif
 </code></pre>
 
-<!--
-The directory of source DEMs is shown in the following figure.
-<img src="https://github.com/HeZhang1994/digital-elevation-model/blob/master/images/Source_DEMs_Directory.png" height="300">
--->
-
 ### Usage of ASTERGDEM
 
 1. Download DEMs `ASTGTM2_N51W001_dem.tif` and `ASTGTM2_N51E000_dem.tif` from [here](https://earthexplorer.usgs.gov/).
