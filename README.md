@@ -58,9 +58,11 @@ This is a **Python** implementation of transforming, projecting, converting, and
 
 ### ASTERGDEM
 
-- ASTERGDEMv2.0 download link: https://earthexplorer.usgs.gov/
+- ASTERGDEMv2.0 download link: ~~https://earthexplorer.usgs.gov/~~
 
 - See [Introduction of ASTGDEMv20.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv20.pdf) for detailed introduction and user guide (recommended).
+
+- **Update** To access and download ASTERGDEM data set, see [here](https://asterweb.jpl.nasa.gov/gdem.asp).
 
 ### EUDEM
 
