@@ -58,9 +58,11 @@
 
 ### ASTERGDEM
 
-- ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/
+- **更新** ASTER数据集的获取和下载，参见[链接](https://asterweb.jpl.nasa.gov/gdem.asp)。
 
-- 关于详细介绍和使用指南，参见[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv20.pdf)。
+- ~~ASTERGDEMv2.0下载链接：https://earthexplorer.usgs.gov/~~
+
+- ~~关于详细介绍和使用指南，参见[Introduction of ASTGDEMv2.pdf](https://github.com/HeZhang1994/digital-elevation-model/blob/master/Introduction%20of%20ASTGDEMv20.pdf)。~~
 
 ### EUDEM
 
